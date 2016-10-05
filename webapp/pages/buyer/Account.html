@@ -30,10 +30,10 @@
                 <div class="entry">
                     <span class="e_title">注册手机号码：</span>
                     <input type="text" readonly />
-                    <a href="#">更换</a>
+                    <a  href="javascript:;" id="change_phone">更换</a>
                 </div>
             </div>
-            
+
             <div class="avator">
                 <img src="" alt="">
                 <span>限jpg格式，100x100px</span>
@@ -74,11 +74,11 @@
                     </li>
 
                 </ul>
-               
+
             </div>
         </div>
-            
-      
+
+
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
     <script src="../../assets/js/admin/bootstrap.min.js"></script>
@@ -91,5 +91,25 @@
     <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/inner-custom.js"></script>
+    <script src="../../assets/js/admin/buyer-account.js"></script>
+    <div style="display:none">
+    	<div id="change_phone_content">
+    		<div class="entry">
+    			<span class="field_name"><span class="highlight">*</span>原手机验证码：</span>
+    			<input type="text" class="field_value">
+    			<button class="code">获取验证码</button>
+    		</div>
+    		<div class="entry">
+    			<span class="field_name">新手机号码：</span>
+    			<input type="text" class="field_value new_phone">
+
+    		</div>
+    		<div class="entry">
+    			<span class="field_name">新手机验证码：</span>
+    			<input type="text" class="field_value">
+    			<button class="code">获取验证码</button>
+    		</div>
+    	</div>
+    </div>
 </body>
 </html>

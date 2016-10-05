@@ -87,7 +87,7 @@ input{outline:0;}
 }
 .comp_box{
     width: 310px;
-    background-color:rgb(241,241,241); 
+    background-color:rgb(241,241,241);
     border:1px solid rgb(226,226,226);
     height: 100px;
     text-align: center;
@@ -125,7 +125,7 @@ input{outline:0;}
 }
 .comp_box.comp_type2 .default{
     position: absolute;
-    top:10px; 
+    top:10px;
     right: 10px;
     font-size: 12px;
 }
@@ -148,7 +148,7 @@ input{outline:0;}
 }
 .comp_box.comp_type2 .comp:hover .inshow{
     display: none;
-    
+
 }
 .comp_box.comp_type2 .comp i{
     width: 16px;
@@ -181,4 +181,30 @@ input{outline:0;}
 }
 .comp_box.comp_type2 .priv.active i{
     background: url(../../img/admin/icon_center_award_select.png) no-repeat;
+}
+#change_phone_content{
+
+}
+#change_phone_content .entry{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#change_phone_content input[type=text]{
+    width: 150px;
+}
+#change_phone_content .new_phone{
+    width: 270px !important;
+}
+#change_phone_content .field_name{
+    width:100px;
+    text-align: right;
+    display: inline-block;
+}
+#change_phone_content .code{
+    width:110px;
+    background-color: #515663;
+    border:none;
+    color:white;
+    height: 32px;
 }
