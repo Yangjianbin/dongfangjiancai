@@ -1,0 +1,92 @@
+.f12{
+    font-size: 12px;
+}
+.container{
+    padding-top: 0px;
+}
+.home_title{
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+}
+.home_title .ca{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_renzheng.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.home_title .uname{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_touxiang.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.home_title .tel{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_shouji.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.box{
+    padding: 20px;
+    background-color: #fff;
+}
+.box .box_title{
+    font-size: 16px;
+}
+.box .steps{
+    padding-left: 160px;
+    padding-bottom: 120px;
+    padding-top: 80px;
+}
+.box .steps .step{
+    width: 100px;
+    height: 65px;
+    background-image: url(../../img/login/02.png);
+    background-repeat: no-repeat ;
+    float: left;
+    margin-right: 170px;
+    position: relative;
+    text-align: center;
+}
+.box .step::before{
+    content: '';
+    width:1px;
+    height: 16px;
+    position: absolute;
+    background-image: url(../../img/login/01.png);
+    background-repeat: no-repeat ;
+    bottom: -28px;
+    transform: translateX(-50%);
+    left:50%;
+}
+.box .step::after{
+    content: '';
+    width: 24px;
+    height: 17px;
+    position: absolute;
+    background-image: url(../../img/login/03.png);
+    background-repeat: no-repeat ;
+    right: -100px;
+    top:50%;
+}
+.box .text{
+    line-height: 80px;
+    color: white;
+}
+.box .number{
+    font-size: 16px;
+    position: absolute;
+    left:50%;
+    top:5px;
+    transform: translateX(-50%);
+}
+.box .desc{
+    bottom: -50px;
+    position: absolute;
+    white-space:nowrap;
+     overflow:hidden;
+    text-overflow:ellipsis;
+    transform: translateX(-50%);
+    left:50%;
+}
