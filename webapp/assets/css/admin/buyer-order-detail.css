@@ -2,15 +2,18 @@
 .bold{font-weight: bold;}
 .container{
     width: 1200px;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     margin: auto;
+}
+.orderbreadcrumb{
+    padding-bottom: 10px;
 }
 .box{
     padding:20px;
     background-color: #fff;
 }
 .box2{
-    padding:40px 20px 30px 20px;
+    padding:30px 20px 30px 20px;
     background-color: #fff;
 }
 .order_title{height: 35px;font-size: 16px;font-weight: normal;border-bottom: 1px solid #e3e3e3;}
@@ -33,7 +36,6 @@
     color:#af934d;
 }
 .progress2{
-    
 }
 .progress2 li{
     float: left;
@@ -197,7 +199,6 @@
     font-weight: bold;
     padding-bottom: 20px;
 }
-
 .payinfo .payentry{
     margin-bottom: 20px;
 }
@@ -210,7 +211,33 @@
     width: 70px;
 }
 .total{
+    margin-top: -10px;
+    margin-bottom: -10px;
     font-size: 16px;
     float: right;
 }
+.aftersale{
 
+}
+.aftersale ul{
+    padding-left: 100px;
+}
+.aftersale li {
+    padding-bottom: 30px;
+}
+.aftersale .entry{
+    width: 700px;
+    clear: both;
+}
+.aftersale .dt{
+    width: 65px;
+    float: left;
+}
+.aftersale .dd{
+    width: 600px;
+    float: left;
+}
+.aftersale .dd .time{
+    margin-left: 20px;
+    color: #ccc;
+}

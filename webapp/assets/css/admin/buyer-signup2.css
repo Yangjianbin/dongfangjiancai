@@ -1,0 +1,83 @@
+.mt10{margin-top: 10px}
+.bold{font-weight: bold;}
+.container{
+    width: 1200px;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+.orderbreadcrumb{
+    padding-bottom: 10px;
+}
+.box{
+    padding:20px;
+    background-color: #fff;
+    text-align: center;
+}
+.box2{
+    padding:30px 20px 30px 20px;
+    background-color: #fff;
+}
+.order_title{height: 35px;font-size: 16px;font-weight: normal;border-bottom: 1px solid #e3e3e3;text-align: left;}
+.progresss{
+    height: 200px;
+    padding-left: 170px;
+    padding-top: 60px;
+}
+.progress1{
+    margin-left: -74px;
+    font-size: 16px;
+}
+.progress1 li{
+    width: 196px;
+    height: 26px;
+    text-align: center;
+    float: left;
+}
+.progress1 li.done{
+    color:#af934d;
+}
+.progress2{
+}
+.progress2 li{
+    float: left;
+}
+.progress2 .dot{
+    background: url(../../img/admin/icon_center_step03.png) no-repeat;
+    width: 46px;
+    height: 46px;
+}
+.progress2 .dot.done{
+    background: url(../../img/admin/icon_center_step01.png) no-repeat;
+}
+.progress2 .dot.half{
+    background: url(../../img/admin/icon_center_step02.png) no-repeat;
+}
+.progress2 .line{
+    height: 10px;
+    width: 150px;
+    background-color: #efefef;
+    margin-top: 18px;
+}
+.progress2 .line.done{
+    background-color: #af934d;
+}
+.msg{
+    font-size: 16px;
+    margin:50px auto 40px auto;
+    text-align: center;
+}
+.link{
+    color: white;
+    width: 280px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    background-color: #515663;
+    border:none;
+    border-radius: 2px;
+    margin-right: 10px;
+    margin:auto 10px auto 10px;
+}

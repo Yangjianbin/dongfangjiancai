@@ -1,0 +1,28 @@
+.container{
+    padding-top: 0px;
+}
+.contract_title{height: 55px;line-height:55px;font-size: 16px;font-weight: normal;background-color: #fff;padding-left: 20px;}
+.search_box{
+    padding:20px;
+    line-height: 25px;
+}
+.search_box .field_name   {
+    width:70px;
+    float:left;
+    line-height: 25px;
+}
+.search_box .field_value{
+    width:260px;
+    float:left;
+    height: 25px;
+    text-indent: 10px;
+}
+.search_box .searchbtn{
+    width:100px;
+    color:white;
+    border-radius: 2px;
+    background-color: #525662;
+    border:none;
+    height: 25px;
+    margin-left: 20px;
+}
