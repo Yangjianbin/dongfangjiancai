@@ -10,18 +10,84 @@
     <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
     <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../assets/css/admin/third-company.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
 </head>
 <body>
     <div class="container">
-        <ul class="nav nav-tabs-custom clearfix" id="ulMenu">
-            <li class="active">企业展示</li>
-          
+		<div class="company_title">
+			企业展示
+		</div>
+		<ul class="field_list">
+            <!-- <li>
+                <label><span>联系人姓名：</span><input type="text" placeholder="采购常用企业联系人姓名"></label>
+            </li>
+            <li>
+                <label><span>联系人邮件：</span><input type="text" placeholder="采购常用企业联系邮箱"></label>
+            </li>-->
+            <li>
+                <label><span class="field_name">LOGO上传：</span>
+					<input class="field_value" type="file" ><button class="uploadpic">确定上传</button>
+				</label>
+				<label for="" class="info">
+					LoGO size 400...........
+				</label>
+            </li>
+            <li>
+                <label><span class="field_name"><span class="highlight ">*</span>公司名称：</span><input class="field_value" type="text" placeholder=""></label>
+            </li>
+            <li>
+                <label><span  class="field_name">一句话描述：</span><input  class="field_value" type="text" placeholder=""></label>
+            </li>
+			<li>
+                <label><span  class="field_name">企业联系人：</span><input  class="field_value" type="text" placeholder=""></label>
+            </li>
+			<li>
+                <label><span  class="field_name">联系电话：</span><input  class="field_value" type="text" placeholder=""></label>
+            </li>
+			<li>
+                <label><span  class="field_name">公司标签：</span>
+					<span class="labels">
+						<button class="active">施工 <i></i></button>
+						<button>安装<i></i></button>
+						<button>物流<i></i></button>
+						<button>设计<i></i></button>
+						<button>国际贸易<i></i></button>
+					</span>
+
+
+				</label>
+				<label for="" class="info">
+					请选择符合公司业务范围的标签
+				</label>
+            </li>
+			<li>
+                <label><span  class="field_name">服务范围：</span>
+					<select class="" name="">
+						<option>中国</option>
+					</select>
+					<select class="" name="">
+						<option>省</option>
+					</select>
+					<select class="" name="">
+						<option>市</option>
+					</select>
+				</label>
+            </li>
+			<li>
+                <label><span  class="field_name">企业介绍：</span>
+					<textarea name="" id="" cols="30" rows="10"></textarea>
+				</label>
+            </li>
+            <li>
+                <span class="field_name">&nbsp;&nbsp;</span>
+                <button class="submit" href="javascript:void(0)">提交</button>
+            </li>
         </ul>
 
-        
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
     <script src="../../assets/js/admin/bootstrap.min.js"></script>
@@ -34,21 +100,9 @@
     <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/inner-custom.js"></script>
-    <script src="../../assets/js/admin/inquiry-management.js"></script>
+	<script src="../../assets/js/admin/third-company.js"></script>
+
     <script type="text/javascript">
-        $(function () {
-            query();
-            $("#searchButton").click(function () {
-                query();
-            });
-        })
-        $(document).on('click', '#search-box  .clear', function () {
-            var _this = $('#search-box .date-filter ul>li');
-            _this.addClass('active').siblings().removeClass('active');
-            $('#inputStartDate').val("");
-            $('#inputEndDate').val("");
-            query();
-        })
 
     </script>
 </body>
