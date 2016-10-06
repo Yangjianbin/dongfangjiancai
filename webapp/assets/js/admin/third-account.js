@@ -1,4 +1,7 @@
 $(function(){
+    $('.info span').click(function(){
+        $('.info .case').toggle();
+    })
     $('.cabtns button').click(function(){
         $(this).is('.active') || $(this).addClass('active').siblings('button').removeClass('active')
         $(this).index() == 1 ? $('.three_ca_content').eq(0).show().end().eq(1).hide() :  $('.three_ca_content').eq(1).show().end().eq(0).hide()

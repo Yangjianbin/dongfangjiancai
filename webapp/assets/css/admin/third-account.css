@@ -80,6 +80,36 @@
     position: relative;
     padding-left: 20px;
     padding-right: 10px;
+    cursor: pointer;
+}
+.info .case:before{
+    content: '';
+    position: absolute;
+    top:-10px;
+    left: 50%;
+    background-image: url(../../img/admin/icon_center_xuanzhong03.png);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    margin-left: -9px;
+    z-index: 0;
+}
+.info .case{
+    display: none;
+    border:1px solid #af924e;
+    position: relative;
+    width: 635px;
+    height: 200px;
+    text-align: center;
+    margin-top: 20px;
+    z-index: 2;
+}
+.info .case p{
+    padding:20px 0 20px 0;
+}
+.info .case img{
+    margin-left: 20px;
+    margin-right: 20px;
 }
 .info span:before{
     content: '';
