@@ -1,0 +1,123 @@
+.f12{
+    font-size: 12px;
+}
+.container{
+    padding-top: 0px;
+    
+}
+.home_title{
+    background: #fff;
+    padding: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+.home_title .ca{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_renzheng.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.home_title .uname{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_touxiang.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.home_title .tel{
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_shouji.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+}
+.navtitle{
+    background-color: #fff;
+}
+.navtitle li{
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 16px;
+    float:left;
+    width: 33%;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.navtitle li a{
+    color: inherit;
+}
+.navtitle li a:hover{
+    text-decoration: none;
+}
+.navtitle li i{
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align:middle;
+}
+.navtitle li:hover {
+    color: #b39a5a;
+}
+
+.navtitle li:nth-child(1) i{
+    width:17px;
+    height: 23px;
+    background-image: url(../../img/admin/icon_center_02renzheng.png);
+}
+.navtitle li:nth-child(1):hover i{
+    background-image: url(../../img/admin/icon_center_02renzheng_select.png);
+}
+
+.navtitle li:nth-child(2) i{
+    width:34px;
+    height: 22px;
+    background-image: url(../../img/admin/icon_center_02guanli.png);
+}
+.navtitle li:nth-child(2):hover i{
+    background-image: url(../../img/admin/icon_center_02guanli_select.png);
+}
+
+.navtitle li:nth-child(3) i{
+    width:25px;
+    height: 28px;
+    background-image: url(../../img/admin/icon_center_03fabu.png);
+}
+.navtitle li:nth-child(3):hover i{
+    background-image: url(../../img/admin/icon_center_03fabu_selsct.png);
+}
+.navtitle li:nth-child(3){
+    border-right: none;
+}
+.box{
+    padding: 20px;
+    background-color: #fff;
+}
+.ma{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    height: 70px;
+    position: relative;
+    background-image: url(../../img/admin/icon_center_arrow02.png) , url(../../img/admin/icon_center_arrow03.png);
+    background-repeat:no-repeat,no-repeat;
+    background-position:78px center,right 70%;
+}
+.ma .ma_title{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #af924c;
+    color: white;
+    position: absolute;
+    left:20px;
+    text-align: center;
+    line-height: 70px;
+}
+.ma ul{
+    padding-left: 200px;   
+    padding-top: 20px;
+}
+.ma ul li{    
+    float: left;
+    width:25%;
+}
+
