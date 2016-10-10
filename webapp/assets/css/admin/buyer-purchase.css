@@ -1,0 +1,137 @@
+.bold{
+    font-weight: bold;
+}
+.container{
+    padding-top: 0px;
+}
+.purchase_title{
+    background-color: #fff;
+    padding: 20px;
+    font-size: 16px;
+}
+.tool_btn{
+    background-color: #af934d;
+    color:white;
+    font-size: 16px;
+    border-radius: 2px;
+    width: 120px;
+    height: 30px;
+    float: right;
+    margin-left: 20px;
+    border:none;
+    transform: translateY(-4px);
+}
+.warn{
+    font-size: 14px;
+    color: #888;
+    padding: 10px 0px;
+}
+.box{
+    padding: 20px;
+}
+#view_content{
+
+}
+#view_content .entry_wrap{
+    padding-left: 5px;
+}
+#view_content .entry{
+    font-size: 14px;
+    line-height: 30px;
+    height: 30px;
+}
+.bj{
+
+}
+.bj_title{
+    border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+    font-size: 14px;
+    padding:5px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.bj_btns{
+    width: 150px;
+    float: left;
+
+}
+.bj_btns button{
+    width: 145px;
+    height: 40px;
+    line-height: 40px;
+    color:#888;
+    background-color: #fff;
+    border:1px solid #ddd;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.bj_btns button.active{
+    color: white;
+    position: relative;
+    background-color: #525662;
+}
+.bj_btns button.active i{
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    background-image: url(../../img/admin/icon_center_xuanzhong02.png);
+    background-repeat: no-repeat;
+    right: -6px;
+    top:13px;
+}
+.bj_sub_wrap{
+    width: 768px;
+    float: right;
+
+}
+.bj_sub_title{
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+#alert_content{
+
+}
+.alert_title{
+    text-align: center;
+    color: #aaa;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: auto;
+}
+.alert_body{
+    padding-bottom: 10px;
+}
+.alert_info{
+    color: #333;
+    font-size: 14px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
