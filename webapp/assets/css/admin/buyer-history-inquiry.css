@@ -39,23 +39,19 @@
 .search_box .fvalue.orderid,.search_box .fvalue.proname{
     width: 320px;
 }
-.search_box .start_push_date{
-    margin-right: 0px;
-}
-.search_box .field.status button{
+.search_box .field.number button,.search_box .field.price_range button{
     width: 110px;
     margin-right: 10px;
     background-color: #fff;
     border:1px solid #ddd;
     height: 30px;
-
 }
-.search_box .field.status button.active{
+.search_box .field.number button.active,.search_box .field.price_range button.active{
     position: relative;
     border:1px solid #515663;
 }
 
-.search_box .field.status button.active i{
+.search_box .field.number button.active i,.search_box .field.price_range button.active i{
     position: absolute;
     right: 0px;
     bottom: 0px;
@@ -64,110 +60,55 @@
     background-image: url(../../img/admin/icon_center_xuanzhongkuang.png);
     background-repeat: no-repeat;
 }
-.orderlistwrap{
-    padding:20px;
+.search_box .field.price_range .recent{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.search_box .field.price_range .clear_form{
+    padding-left: 40px;
+}
+.search_box .field.price_range .query{
+    color: #fff;
+    border-radius: 2px;
+    background-color: #525662;
+    font-size: 16px;
+}
+.box{
+    padding: 20px;
     background-color: #fff;
 }
-#apply_custom_service_content{
-    padding:0px;
-    height: 400px;
-}
-.history{
-    width: 42%;
-    float: left;
-    margin-left: 10px;
-}
-.history .title{
-    font-weight: bold;
+.box .table_title{
     font-size: 14px;
-    color: #000;
-    padding-bottom: 10px;
 }
-.history .no_history{
-    text-align: center;
-}
-.history_panel{
-
-}
-.history_list {
-    background-color: #f1f1f1;
-    padding:20px 20px 20px 60px;
-    height: 370px;
-    border:1px solid #ddd;
-    line-height: 25px;
-}
-.history_list li{
-    display: block;
-}
-.history_list .dd:last-child{
-    margin-bottom: 30px;
-}
-.history_list .done_time{
-    color: #ccc;
-}
-.history_list .dt{
-    float: left;
-    width: 60px;
-    height: 25px;
-
-}
-.history_list .dd{
-    float: left;
-    width: 250px;
-    height: 25px;
-}
-.apply{
+.box .back_btn{
     float: right;
-    width: 50%;
-    font-size: 14px;
-    padding-right: 40px;
-}
-.apply form{
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px 0 20px 0;
-}
-.apply button.submit{
-    width: 190px;
+    font-size: 16px;
+    width:140px;
     height: 34px;
     border:none;
-    color: white;
     border-radius: 2px;
-    background-color: #515663;
-    margin:auto;
-    margin-top: 70px;
-    display: block;
-
-}
-.apply .apply_title{
-    font-size: 14px;
-    padding-bottom: 10px;
-    color: #000;
-    font-weight: bold;
+    background-color:#525662;
+    color: white;
+    transform: translateY(-5px);
+    text-align: center;
+    line-height: 34px;
 }
 
-.apply .entry{
-    padding:10px 0 10px 0;
-    color:#000;
-}
-.apply .field_name{
-    float: left;
-    width: 135px;
-    height: 30px;
-    line-height: 30px;
-    text-align: right;
-}
-.apply .field_value{
-    float: right;
-    width: 280px;
-    height: 30px;
-    line-height: 30px;
-    text-align: right;
-}
-.apply textarea{
-    width: 280px;
-    float: right;
-    height: 100px;
-    resize:none;
-    padding:10px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

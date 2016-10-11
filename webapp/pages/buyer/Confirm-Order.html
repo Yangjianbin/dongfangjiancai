@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>确认订单</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/buyer-confirm-order.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="buyer_history_inquiry_breadcrumb">
+            <span>买家服务中心</span>
+            &gt;
+            <span>订单管理</span>
+        </div>
+        <div class="order_title">
+            核对订单信息
+        </div>
+        
+        <div class="box">
+            <div class="box_title">
+               <span class="bold">货品清单</span>
+                供应商：小西瓜
+                材料种类：<span class="bold">12</span>种 
+            </div>
+            <div class="table_wrap">
+                <table class="table table-bordered">
+                    <tr>
+                        <th>材料名称</th>
+                        <th>材料品牌</th>
+                        <th>规格型号</th>
+                        <th>数量</th>
+                        <th>单位</th>
+                        <th>单价(元)</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_desc">
+                备注说明：价格10天有效
+            </div>
+        </div>
+        
+        <form action="">
+        <div class="box">
+            <div class="box_title">
+                收货地址
+            </div>
+            <div class="adr_wrap">
+                <div class="adr">
+                    第一收货地址：xxx  188888888888/063435  江干区
+                </div>
+                <div class="add_adr">
+                    <span class="highlight">继续添加</span> (最多可添加三个收货地址)
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box_title">
+                配送方式
+            </div>
+            <div class="deliver">
+                <label ><input name="a" type="radio" >自取</label>
+                <label ><input name="a" type="radio" >供应方配送</label>
+            </div>
+        </div>
+        <div class="box">
+            <div class="box_title">
+                发票类型
+            </div>
+            <div class="deliver">
+                <label ><input name="a" type="radio" >普通发票(增值税)</label>
+                <label ><input name="a" type="radio" >专业发票(增值税)</label>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="box_title">
+                第三方协议确认
+            </div>
+
+            <div class="third">
+                <a href="#">查看第三方协议模板</a>
+                <a href="#">下载模板</a>
+            </div>
+            <div class="third_input">
+                <label for="">
+                    添加附加条款：
+                </label>
+                <textarea name="" id="" placeholder="只能输入"></textarea>
+            </div>
+            
+            
+        </div>
+
+        <div class="tool">
+            <button>取消</button>
+            <button>确认订单信息去签约</button>
+        </div>
+        </form>
+    </div>
+
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/admin/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.datagrid.js"></script>
+    <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/inner-custom.js"></script>
+    <script src="../../assets/js/admin/inquiry-management.js"></script>
+    <script src="../../assets/js/admin/buyer-confirm-order.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+<div style="display:none">
+    <div id="adr_mgr">
+        <div class="item mt20 clearfix">
+                <div class="item_title">
+                    陈士骏&nbsp;&nbsp;浙江 
+                </div>
+                <ul>
+                    <li class="prop clearfix">
+                        <div class="dt">收货地址：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">手机号码：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">固定电话：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">电子邮箱：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                </ul>
+                <a href="#" class="close"></a>
+                 <div class="item_tools">
+                    <a href="#" class="">设置为默认</a>
+                    <a href="#" class="">编辑</a>
+                </div>
+                
+                
+            </div>
+            <div class="item mt20 clearfix">
+                <div class="item_title">
+                    陈士骏&nbsp;&nbsp;浙江  <span class="default">默认地址</span>
+                </div>
+                <ul>
+                    <li class="prop clearfix">
+                        <div class="dt">收货地址：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">手机号码：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">固定电话：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">电子邮箱：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                </ul>
+                <a href="#" class="close"></a>
+               
+                
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
