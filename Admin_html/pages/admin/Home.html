@@ -9,6 +9,8 @@
     <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
     <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../assets/css/admin/admin-home.css" rel="stylesheet">
+
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
@@ -16,15 +18,19 @@
 <body>
     <div class="container">
         <div class="module-box admin">
-            <div class="panel">
-                <h2>企业<b>（已入驻总数：<span class="number">487</span>家）</b></h2>
-                <a href="#">企业资料待审核（<span class="number">25</span>）</a>
-                <a href="#">CA待认证（<span class="number">25</span>）</a>
+            <div class="admin_panel fl">
+                <div class="title">企业<span>(已入驻总数：487家)</span></div>
+				<div class="links">
+					<a href="#">企业资料待审核<span class="highlight">(25)</span></a>
+					<a href="#">CA待认证<span class="highlight">(25)</span></a>
+				</div>
             </div>
-            <div class="panel">
-                <h2>商品<b>（已发布总数：<span class="number">21114</span>）</b></h2>
-                <a href="#">商品待审核（<span class="number">11</span>）</a>
-                <a href="#">品牌待审核（<span class="number">25</span>）</a>
+            <div class="admin_panel fr">
+                <div class="title">商品<span>（已发布总数：345345)</span></div>
+				<div class="links">
+					<a href="#">商品待审核<span class="highlight">(25)</span></a>
+					<a href="#">品牌待审核<span class="highlight">(25)</span></a>
+				</div>
             </div>
         </div>
         <div class="module-box">
@@ -59,10 +65,9 @@
         </div>
         <div class="module-box">
             <h4>消息列表：</h4>
-            <table id="list" class="table">
+            <table id="list" class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>单号</th>
                         <th>消息名称</th>
                         <th>详情</th>
                         <th>消息日期</th>
@@ -70,31 +75,26 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>0001</td>
                         <td>新询价单</td>
                         <td><a href="#">询价单号：X701 /项目名称：xxxxxxxxx/采购商：小南瓜/截止日期2016-08-19 09:27:21</a></td>
                         <td>2016-08-19 09:27:21</td>
                     </tr>
                     <tr>
-                        <td>0002</td>
                         <td>新询价单</td>
                         <td><a href="#">询价单号：X701 /项目名称：xxxxxxxxx/采购商：小南瓜/截止日期2016-08-19 09:27:21</a></td>
                         <td>2016-08-19 09:27:21</td>
                     </tr>
                     <tr>
-                        <td>0003</td>
                         <td>新询价单</td>
                         <td><a href="#">询价单号：X701 /项目名称：xxxxxxxxx/采购商：小南瓜/截止日期2016-08-19 09:27:21</a></td>
                         <td>2016-08-19 09:27:21</td>
                     </tr>
                     <tr>
-                        <td>0004</td>
                         <td>新询价单</td>
                         <td><a href="#">询价单号：X701 /项目名称：xxxxxxxxx/采购商：小南瓜/截止日期2016-08-19 09:27:21</a></td>
                         <td>2016-08-19 09:27:21</td>
                     </tr>
                     <tr>
-                        <td>0005</td>
                         <td>新询价单</td>
                         <td><a href="#">询价单号：X701 /项目名称：xxxxxxxxx/采购商：小南瓜/截止日期2016-08-19 09:27:21</a></td>
                         <td>2016-08-19 09:27:21</td>

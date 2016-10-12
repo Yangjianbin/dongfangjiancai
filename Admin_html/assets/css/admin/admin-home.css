@@ -1,0 +1,65 @@
+.admin {
+    padding: 0px;
+}
+.admin_panel{
+    width: 49%;
+}
+.admin_panel .title{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #404652;
+    padding: 10px 20px;
+    text-align: center;
+}
+.admin_panel:hover .title{
+    background-color: #af924c;
+}
+.admin_panel .title span{
+    font-size: 14px;
+    padding-left: 15px;
+    font-weight: normal;
+}
+.admin_panel .links{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 14px;
+}
+.admin_panel .links a{
+    height: 100px;
+    line-height: 100px;
+    float: left;
+    width: 50%;
+    color: #333;
+}
+.admin_panel .links a:hover{
+    color:#b39a5a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

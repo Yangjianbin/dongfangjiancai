@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+	<link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../assets/css/admin/admin-account.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="module-box title">
+			账户管理
+        </div>
+		<div class="search_box">
+			<div class="clearfix">
+				<label for="" class="field_label">客户:</label>
+				<input type="text" class="field_input">
+				<label for="" class="field_label">客户类型:</label>
+				<select name="" id="" class="field_input">
+					<option value="">111</option>
+				</select>
+			</div>
+			<div class="clearfix">
+				<label for="" class="field_label">注册日期:</label>
+					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<button class="query_btn">
+					查询
+				</button>
+			</div>
+		</div>
+        <div class="module-box">
+			<div class="tools">
+				<button id="add_account">新建账户</button>
+				<button id="add_remark">添加备注</button>
+				<button id="reset_pwd">重置密码</button>
+				<a href="./AccountMgr.html">去到管理</a>
+			</div>
+        </div>
+
+
+	</div>
+	<script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+	<script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+	<script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-account.js"></script>
+<div style="display:none">
+	<div id="add_remark_content">
+		<div class="entry">
+			<label for="" class="field_label">备注内容：</label>
+			<textarea name="name" class="textarea"></textarea>
+		</div>
+		<div class="submit">
+			提交
+		</div>
+		<div class="table_wrap">
+
+		</div>
+	</div>
+</div>
+<div style="display:none">
+	<div id="add_account_content">
+		<div class="entry">
+			<label for="" class="field_label">账户名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">性名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">手机号码：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">企业名称：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">客户类型：</label>
+			<select name="" id="" class="field_value">
+				<option value="">请选择</option>
+			</select>
+		</div>
+		<div class="warn highlight clearfix">提示：新建成功后密码为初始密码:123456</div>
+	</div>
+</div>
+</body>
+</html>
