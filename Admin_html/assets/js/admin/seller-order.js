@@ -1,0 +1,13 @@
+$(function(){
+    $('.deliver').click(function(){
+        $.dialog({
+            width:500,
+            title:'填写发货信息',
+            ok:function(){},
+            cancel:function(){},
+            okVal:'提交',
+            content:document.getElementById('deliver_content'),
+            lock:true
+        });
+    })
+})

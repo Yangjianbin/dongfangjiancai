@@ -1,0 +1,84 @@
+
+.cate{
+    background-color: #fff;
+    padding:10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.cate .col{
+    width:18px;
+    height: 20px;
+    background-image: url(../../img/admin/icon_center_arrow08.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: right;
+    line-height: 20px;
+}
+.cate .col.slide{
+    background-image: url(../../img/admin/icon_center_arrow09.png);
+}
+#collapse{
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+#collapse li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#collapse li:hover{
+    color: #b39a5a;
+}
+.box{
+    padding:15px 20px;
+    background-color: #fff;
+}
+.select_cate{
+    border:1px solid #ddd;
+    margin-right: 20px;
+    width: 307px;
+    height: 400px;
+    float: left;
+}
+.select_cate:nth-last-child(1){
+    margin-right: 0px;
+}
+.select_cate li{
+    height: 32px;
+    line-height: 32px;
+    padding-left: 20px;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+}
+.select_cate li:after{
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 6px;
+    height: 11px;
+    background-image: url(../../img/admin/icon_center_arrow_page02.png);
+    background-repeat: no-repeat;
+    
+}
+.select_cate li.active{
+    background-color: #f5f5f5;
+}
+.submitwrap{
+    background-color: #fff;
+    padding: 20px;
+    padding-bottom: 40px;
+    font-size: 14px;
+    text-align: right
+}
+.submit{
+    width: 140px;
+    height: 35px;
+    border:none;
+    color:white;
+    line-height: 35px;
+    background-color: #515663;
+   
+}

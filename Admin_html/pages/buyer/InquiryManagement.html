@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>询价管理</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="heading">
+            <h2>询价管理</h2>
+            <a href="AddInquiry.html" class="btn light">我要询价</a>
+        </div>
+        <div class="search-box box" id="search-box">
+            <form role="form">
+                <div class="submit">
+                    <label for="txtTitle">工程名称：</label>
+                    <input class="form-control input-ssm" type="text" id="txtTitle" placeholder="请输入工程/项目名称">
+                    <label for="inputStartDate">提交日期：</label>
+                    <input id="inputStartDate" placeholder="请选择" class="form-control input-ssm date start_datetime" type="text">
+                    -
+                    <input id="inputEndDate" placeholder="请选择" class="form-control input-ssm date end_datetime" type="text">
+                    <button type="button" class="btn btn-warning btn-ssm" id="searchButton">查询</button>
+                    <input type="hidden" id="hidStatus" value="0">
+                </div>
+                <div class="list status">
+                    <span class="title">询价状态：</span>
+                    <ul>
+                        <li class="active" data-id="-100">全部</li>
+                        <li data-id="0" id="">待报价（0）</li>
+                        <li data-id="1">已报价（0）</li>
+                        <li data-id="2">询价结束（0）</li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+        <table id="list" class="table"></table>
+        <div class="tabel-operate" id="batchOperate"></div>
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.datagrid.js"></script>
+    <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
+    <script src="../../assets/js/admin/inquiry-management.js"></script>
+</body>
+</html>

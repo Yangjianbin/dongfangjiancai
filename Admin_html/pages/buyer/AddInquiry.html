@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>买家中心-发布询价</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/inquiry.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container main">
+        <div class="form">
+            <h2 class="heading">发布询价</h2>
+            <div class="divinfo">
+                <label><em>*</em>工程名称：</label>
+                <input type="text" placeholder="请输入工程/项目名称/需要采购的商品名称" id="inquirySheetTitle" required="required" class="text" value="">
+            </div>
+            <div class="divinfo">
+                <label>企业名称：</label>
+                <input type="text" id="companyName" placeholder="请输入企业名称" required="required" class="text" autocomplete="on">
+            </div>
+            <div class="divinfo">
+                <label><em>*</em>联系人手机号：</label>
+                <input type="text" id="contactsPhone" placeholder="请输入联系人手机号" required="required" class="text" autocomplete="on">
+            </div>
+            <div class="divinfo">
+                <div class="item">
+                    <label><em>*</em>联系人姓名：</label>
+                    <input type="text" id="contactsName" placeholder="请输入联系人姓名" required="required" class="text">
+                </div>
+            </div>
+            <div class="divinfo">
+                <label><em>*</em>询价截止时间：</label>
+                <label class="sub">
+                    <input value="24" type="radio" name="inquiry-deadline">24小时
+                </label>
+                <label class="sub">
+                    <input value="48" type="radio" name="inquiry-deadline">48小时
+                </label>
+                <label class="sub">
+                    <input value="72" type="radio" name="inquiry-deadline">72小时
+                </label>
+                <div class="select-date">
+                    <input type="text" id="endDate" class="date end_datetime" placeholder="请选择" value="">
+                    <span class="message">选择详细截止时间，过期后不再报价，截止时间不能超过两周。</span>
+                    <span class="error-msg hide" id="inquirySheetEndDateNote">请选择询价截止时间</span>
+                </div>
+            </div>
+            <div class="divinfo">
+                <label>附件：</label>
+                <form class="" id="sumbmint_info">
+                    <input type="file" name="file" id="up_file">
+                    <span class="accessory">上传</span>
+                     <dl class="descr">
+                         <dt>说明：</dt>
+                         <dd>
+                             <p>1.您也可以通过上传附件，有我们的后台工作人员帮您完成询价单据的填写</p>
+                             <p>2.上传的文件允许：图片、word文档、excel文档</p>
+                         </dd>
+                     </dl>
+                </form>
+                <p class="up_file">
+                    <span><img style="display:none" name="imgfile" src=""><span class="file_name"></span></span>
+                    <a class="del" name="deletefile" onclick="DeleteUpfile(this)" style="display:none;">删除</a>
+                    <input type="hidden" name="upfile" value="">
+                </p>
+            </div>
+            <div class="more-info">
+                <div class="more-btn">
+                    <button class="more up">完善更多信息</button>
+                </div>
+                <div class="fields">
+                    <div class="divinfo">
+                        <label class="top">询价商品：</label>
+                        <div class="table-box">
+                            <table class="tb UploadInquirystb">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>材料名称</th>
+                                        <th>材料品牌</th>
+                                        <th>规格型号</th>
+                                        <th>数量</th>
+                                        <th>单位</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                   <tr name="inquirySheet" data-index="1">
+                                        <td><span class="del" onclick="deleteinquiry(this);">删除</span></td>
+                                        <td><input type="text" class="inquiryName" data-id="0" value="" placeholder="请输入材料名称"></td>
+                                        <td><input type="text" class="inquiryBrand" data-id="0" value="" placeholder="请输入材料品牌"></td>
+                                        <td><input type="text" value="" class="inquirySize" id="nstock" placeholder="请输入型号规格"></td>
+                                        <td><input type="text" value="" class="inquiryNum" placeholder="请输入数量"></td>
+                                        <td class="unit"><input type="text" class="inquiryUnit" value="" placeholder="件、吨"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="tools">
+                                <span class="add-inquiry">添加产品</span>
+                                <a class="import" href="javascript:filter(650,250,'UploadInquirys');">批量导入</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divinfo">
+                        <div class="item" id="receiving-way">
+                            <label>收货方式：</label>
+                            <label class="sub">
+                                <input value="1" type="radio" name="receiving" >自取
+                            </label>
+                            <label class="sub">
+                                <input value="2" type="radio" name="receiving" >供应商配送
+                            </label>
+                        </div>
+                    </div>
+                    <div class="divinfo">
+                        <label>收货地址：</label>
+                        <input type="text" id="shipping-address" class="text shipping-address" value="">
+                        <div class="address-list" style="display: none;">
+                            <ul id="postAddressList"></ul>
+                            <a href="javascript:;" class="add">新增收货地址</a>
+                        </div>
+                    </div>
+                    <div class="divinfo">
+                        <label>发票要求：</label>
+                        <label class="sub"><input type="radio" value="1" name="invoice">普通发票（增值税）</label>
+                        <label class="sub"><input type="radio" value="2" name="invoice">增值税发票（增值税）</label>
+                    </div>
+                    <div class="divinfo">
+                        <label class="top">询价备注：</label>
+                        <textarea placeholder="针对本次询价增添更多描述" id="inquiry-remark" maxlength="2000"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="agr divider">
+                <div class="btdiv standard">
+                    <input type="checkbox" id="agree" checked="checked"><label>我已经阅读并同意<span class="bule">《询价单发布以及违规处理规则》</span></label>
+                    <button type="button" onclick="saveInquirySheet();" class="bt">开始询价</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <table style="display:none;">
+        <tbody class="inquirystempor">
+            <tr name="inquirySheet" data-index="1">
+                <td><span class="del" onclick="deleteinquiry(this);">删除</span></td>
+                <td><input type="text" class="inquiryName" data-id="0" value="" placeholder="请输入材料名称"></td>
+                <td><input type="text" class="inquiryBrand" data-id="0" value="" placeholder="请输入材料品牌"></td>
+                <td><input type="text" value="" class="inquirySize" id="nstock" placeholder="请输入型号规格"></td>
+                <td><input type="text" value="" class="inquiryNum" placeholder="请输入数量"></td>
+                <td class="unit"><input type="text" class="inquiryUnit" value="" placeholder="件、吨"></td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/admin/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/jquery.uploadFile.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/add-inquiry.js"></script>
+</body>
+</html>

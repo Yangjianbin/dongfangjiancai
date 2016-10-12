@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/custom.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="no-topbar"> 
+    <div class="navbar navbar-static-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="logo" href="index.html" title="平台管理中心">平台管理中心</a>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="dropdown active">
+                        <a class="dropdown-toggle" data-toggle="dropdown">首页</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="Home.html" id="1001" target="iframe">控制台</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">客户</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="Account.html" target="iframe">账户管理</a></li>
+                            <li><a href="Company.html" target="iframe">企业管理</a></li>
+                            <li><a href="CA.html" target="iframe">CA认证</a></li>
+                            <li><a href="BlackList.html" target="iframe">黑名单</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">商品</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="ProductManagement.html" target="iframe">商品管理</a></li>
+                            <li><a href="BrandManagement.html" target="iframe">品牌管理</a></li>
+                            <li><a href="CategoryManagement.html" target="iframe">分类管理</a></li>
+                            <li><a href="TypeManagement.html" target="iframe">类型管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">交易</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="InquiryManagement.html" target="iframe">询价管理</a></li>
+                            <li><a href="PurchaseManagement.html" target="iframe">采购管理</a></li>
+                            <li><a href="OrderManagement.html" target="iframe">订单管理</a></li>
+                            <li><a href="PriceManagement.html" target="iframe">价格库管理</a></li>
+                            <li><a href="AgreementManagement.html" target="iframe">协议管理</a></li>
+                            <li><a href="PayManagement.html" target="iframe">支付管理</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">系统</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="SiteManagement.html" target="iframe">站点设置</a></li>
+                            <li><a href="Administrator.html" target="iframe">管理员</a></li>
+                            <li><a href="LimitManagement.html" target="iframe">权限组</a></li>
+                            <li><a href="LogManagement.html" target="iframe">日志管理</a></li>
+                            <li><a href="MessageManagement.html" target="iframe">消息管理</a></li>
+                            <li><a href="AgreementTemplate.html" target="iframe">协议模板</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown">网站</a>
+                        <ul class="dropdown-menu id_menu">
+                            <li class="current"><a href="ArticleManagement.html" target="iframe">文章管理</a></li>
+                            <li><a href="ArticleCategory.html" target="iframe">文章分类</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>小西瓜 <a href="#">退出</a></li>
+                    <li><a href="#">修改密码</a></li>
+                    <li><a href="#">消息（0）</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="aside">
+            <ul class="aside-list">
+            </ul>
+        </div>
+        <div class="content">
+            <iframe id="iframe" name="iframe" frameborder="0" scrolling="auto" src="home.html"></iframe>
+        </div>
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/admin/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/custom.js"></script>
+    <script>
+        function logout() {
+            $.removeCookie('Himall-User', { path: '/' });
+            $.removeCookie('Himall-SellerManager', { path: "/" });
+            location.reload();
+        }
+    </script>
+</body>
+</html>

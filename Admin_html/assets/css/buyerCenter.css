@@ -1,0 +1,182 @@
+@CHARSET "UTF-8";
+.commstar {
+    background: url("../../assets/images/commstar.jpg") repeat-x scroll 0 -21px;
+    display: inline-block;
+    float: left;
+    height: 20px;
+    position: relative;
+    width: 105px;
+}
+#supporting-invoice .invoice.selected {
+	border: 1px solid #000f00;
+	background: url("../../assets/images/selected.png") no-repeat right
+		bottom;
+}
+
+#supporting-invoice .invoice {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+	color: #545454;
+	border: 1px solid #bdbdbd;
+	padding: 0px 10px;
+	height: 32px;
+	line-height: 32px;
+	cursor: pointer;
+}
+.form-midTitle{
+	font-family: "microsoft yahei", "黑体";
+    font-weight:bold;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-bottom: 20px;
+	margin-top:10px;
+	width:100%;
+	text-align: center;
+}
+.form-midTitleSpliter{
+	font-family: "Arial", "黑体";
+    font-weight:bold;
+	font-size: 20px;
+	vertical-align: middle;
+	margin-bottom: 10px;
+	margin-top:10px;
+	width:100%;
+	text-align: center;
+}
+.form-horizontal.box {
+	padding: 10 10 10 10;
+	width: 100%;
+	float: left;
+}
+
+.form-horizontal .table-hd {
+	margin-bottom: 20px;
+}
+
+.form-body {
+	border: 1px solid #e5e5e5;
+	width: 98%;
+	margin: 10px 10px 10px 10px;
+	min-height: 1px;
+}
+.form-dialog {
+	border: 0px solid #Fee900;
+	width: 100%;
+	margin: 0px;
+	min-height: 150px;
+	min-width:200px;
+	padding:40px 5px 5px 5px
+}
+.form-group .form-field {
+	font-size: 14px;
+	margin-right:10px;
+	width:100%;
+	padding: 10px 10px 0px 80px;
+}
+
+.form-body-div {
+	text-align: center;
+	width: 100%;
+	padding: 60px;
+}
+
+
+.form-group .operate {
+	float: right;
+}
+
+.form-buttom {
+	color: #545454;
+	margin-bottom: 20px;
+}
+.center {
+	text-align: center;
+}
+
+*::after,*::before {
+	box-sizing: border-box;
+}
+
+*::after,*::before {
+	box-sizing: border-box;
+}
+
+.btn {
+	height: 32px;
+	width: 100px;
+	background: #515663;
+	text-align: center;
+	vertical-align: middle;
+	color: #fff;
+	border: 1px;
+	font-family: "microsoft yahei", "黑体";
+	font-size: 14px;
+	
+}
+.btn-long {	
+	width: 300px;
+}
+.goldenBackColor
+{
+	background: #B8860B ;
+}
+.snowBackColor{
+	background:#F9F0F5;
+}
+.goldenFontColor
+{
+	color: #B8860B ;
+}
+.btn-small
+{
+	font-size: 10px;
+}
+.btn-autoWidth
+{
+	height: auto;
+	width: auto;
+}
+.btn:link,.btn:visited,.btn:hover,.btn:active {
+	text-decoration: none;
+}
+
+.table-hd {
+	margin: 0;
+	line-height: 30px;
+	background: #f8f8f8;
+	padding: 0 18px;
+	font-size: 14px;
+}
+
+* {
+	box-sizing: border-box;
+}
+.float{
+    float: left;
+    position: relative;
+}
+.labelStyle {
+	font-size: 16px;
+	line-height: 20px;
+	padding: 0px 18px;
+}
+.font-bold{
+	font-weight: bold;
+}
+.font-smallsize{
+	font-size: 12px;
+}
+.title-midsize{
+	font-size: 14px;
+	line-height: 20px;
+	padding: 0px 0px 5px 0px;
+}
+.clr {
+    display: block;
+    overflow: hidden;
+    clear: both;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+}
