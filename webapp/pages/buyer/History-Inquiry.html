@@ -28,43 +28,42 @@
         <div class="search_box clearfix">
             <div class="field">
                 <label for="" class="fname">材料：</label>
-                <input type="text"  placeholder="请输入订单编号" class="fvalue orderid">
+                <input type="text"  placeholder="请输入材料名称/供应商/材料品牌" class="fvalue orderid">
             </div>
 
 
-            <div class="field status">
+            <div class="field number">
                 <label for="" class="fname">数量：</label>
-                <button>0-50</button>
-                <button>50-100</button>
-                <button>0-50</button>
-                <button>0-50</button>
+                <button class="active">0-50 <i></i></button>
+                <button>50-100 <i></i> </button>
+                <button>100-200 <i></i></button>
+                <button>500以上 <i></i></button>
             </div>
-            <div class="field status">
+            <div class="field price_range">
 
-                <button>全部</button>
-                <button>最低价格</button>
-                <a href="#">近七天</a>
-                <a href="#">近七天</a>
-                <a href="#">近七天</a>
+                <button class="price_range_btn active">全部<i></i></button>
+                <button class="price_range_btn">最低价格<i></i></button>
+                <a href="#" class="recent">近七天</a>
+                <a href="#" class="recent">近七天</a>
+                <a href="#" class="recent">近七天</a>
 
-                <a href="#">清空查询条件</a>
+                <a href="#" class="clear_form">清空查询条件</a>
                 <button class=" query">
                     查询
                 </button>
             </div>
         </div>
 
-
-
-        <div class="orderlistwrap"><table id="orderlist" class="table"></table>
-            <table>
-                <tr>
-                    <td><a class="view" href="#">查看</a></td>
-                    <td><a class="apply_custom_service" href="#">申请售后</a></td>
-                    <td><a class="cancel" href="#">取消</a></td>
-                </tr>
-            </table>
+        <div class="box">
+            <div class="table_title">
+                合计共：3253534 条历史报价记录
+                <a class="back_btn" href="#">
+                    返回采购管理
+                </a>
+            </div>
         </div>
+
+        
 
         <div class="tabel-operate" id="batchOperate"></div>
     </div>
@@ -81,7 +80,7 @@
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/inner-custom.js"></script>
     <script src="../../assets/js/admin/inquiry-management.js"></script>
-    <script src="../../assets/js/admin/buyer-.js"></script>
+    <script src="../../assets/js/admin/buyer-history-inquiry.js"></script>
     <script type="text/javascript">
 
 

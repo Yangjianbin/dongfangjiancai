@@ -1,0 +1,13 @@
+$(function(){
+    $('.add_adr').click(function(){
+        $.dialog({
+            title:'选择收货地址',
+            content:document.getElementById('adr_mgr'),
+            ok:function(){},
+            cancel:function(){},
+            okVal:'新增',
+            cancelVal:'取消',
+            lock:true
+        });
+    })
+})

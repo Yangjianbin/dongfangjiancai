@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>发布采购单</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+<!--    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">-->
+    <link href="../../assets/css/admin/buyer-publish-purchase.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+      <div class="buyer-nav">
+            <span>买家服务中心</span>
+            &gt;
+            <span>采购管理</span>
+        </div>
+       <div class="contmain">
+        <div class="w1190c position standard">
+            
+            <div class="tab-box standard">
+                <div class="divinfo">
+                    <label><em>*</em>工程名称</label>
+                    <input type="text" placeholder="请输入工程名称..." id="inquirySheetTitle" required="required" class="text" value="">
+                </div>
+                <div class="divinfo">
+                    <label><em>*</em>企业名称</label>
+                    <input type="text" placeholder="企业名称..." id="inquirySheetTitle" required="required" class="text" value="">
+                </div>
+                <div class="divinfo">
+                    <label><em>*</em>联系人手机号</label>
+                    <input type="text" placeholder="联系人手机号..." id="inquirySheetTitle" required="required" class="text" value="">
+                </div>
+                <div class="divinfo">
+                    <label><em>*</em>联系人姓名</label>
+                    <input type="text" placeholder="联系人姓名..." id="inquirySheetTitle" required="required" class="text" value="">
+                </div>
+                 <div class="divinfo query_price">
+                    <label><em>*</em>询价截止日期</label>
+                    <button class="active">一天</button>
+                    <button class="">一天</button>
+                    <button class="">一天</button>
+                </div>
+                <div class="divinfo">
+                    <label for=""></label>
+                    <input type="text" class="text datetime" value="">
+                </div>
+                <div class="divinfo attach">
+                    <label>附件</label>
+                    <button class="">上传</button>
+                    <span>说明：你可以你可以你可以</span>
+                </div>
+                <div class="divinfo">
+                    <label class="top"><em>*</em>询价产品</label>
+                    <div class="table-box">
+                        <table class="tb UploadInquirystb">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;"></th>
+                                    <th><em>*</em>材料名称</th>
+                                    <th><em>*</em>材料品牌</th>
+                                    <th><em>*</em>规格型号</th>
+                                    <th><em>*</em>数量</th>
+                                    <th><em>*</em>单位</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                   <tr name="inquirySheet" data-index="1">
+                                        <td style="text-align: center;"><span class="dell" onclick="deleteinquiry(this);">删除</span></td>
+                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入商品名称"></td>
+                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入商品名称"></td>
+                                        <td><input type="text" value="" class="inquirySize" id="nstock" placeholder="请输入规格"></td>
+                                        <td><input type="text" value="" class="inquiryNum" placeholder="请输入数量"></td>
+                                        <td class="unit"><input type="text" class="" value="" placeholder="件、吨"></td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                        <div class="tools">
+                            <span class="add-inquiry">添加产品</span>
+                            <a class="highlight" href="javascript:filter(650,250,'UploadInquirys');">批量导入</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="form">
+                    <form class="">
+                         <div class="divinfo query_price">
+                            <label><em>*</em>收货方式</label>
+                            <button class="active">自取</button>
+                            <button class="">自取</button>
+                        </div>
+                        <div class="divinfo adr">
+                            <label><em>*</em>收货地址</label>
+                            <input type="text" placeholder="联系人姓名..."   class="text" value="">
+                        </div>
+                        <div class="divinfo query_price">
+                            <label><em>*</em>发票要求</label>
+                            <button class="active">普通发票（增值税）</button>
+                            <button class="">专业发票（增值税）</button>
+                        </div>
+                        
+                        <div class="form-group divinfo cl">
+                            <label class="top"><em></em>采购备注</label>
+                            <div class="table-box">
+                                    <textarea name="" style="width:80%" cols="60" rows="4"></textarea>
+                            </div>
+                        </div>
+                       
+                    </form>
+                </div>
+               
+              
+                <ul id="unitBox"></ul>
+                <div class="agr">
+                    <div class="btdiv standard">
+                       
+                       
+                        <input type="checkbox" id="agree" checked="checked"><label>我已经阅读并同意<span class="bule">《询价单发布以及违规处理规则》</span></label>
+                        <button type="button" onclick="saveInquirySheet();" class="bt">提交</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/admin/bootstrap.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.datagrid.js"></script>
+    <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/inner-custom.js"></script>
+    <script src="../../assets/js/admin/inquiry-management.js"></script>
+    <script src="../../assets/js/admin/buyer-publish-purchase.js"></script>
+    <script type="text/javascript">
+
+
+    </script>
+
+</body>
+</html>
