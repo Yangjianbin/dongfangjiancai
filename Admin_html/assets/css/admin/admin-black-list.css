@@ -1,0 +1,205 @@
+.title{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 16px;
+}
+.search_box{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.search_box .field_label{
+    float: left;
+    width:80px;
+    height: 28px;
+    padding-left: 20px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+.search_box .field_input{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    outline: none;
+    width:320px
+}
+.search_box .field_input.field_date{
+    width:150px;
+    padding-right: 20px;
+    background-image: url(../../img/admin/icon_center_calendar.png);
+    background-repeat: no-repeat;
+    background-position: 125px center;
+}
+.search_box .dash{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 28px;
+    line-height: 28px;
+}
+.search_box .query_btn{
+    background-color: #525662;
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+    border:none;
+    height: 28px;
+    float: right;
+    width: 100px;
+}
+
+.tools{
+    padding-top: 10px;
+}
+.tools button{
+    height: 28px;
+    border:1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background: white;
+    color: #666;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#add_account_content{
+    font-size: 14px;
+    width:500px;
+}
+#add_account_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#add_account_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+}
+#add_account_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+display: inline-block;
+    text-indent: 10px;
+}
+#add_account_content .warn{
+    clear: both;
+    color:#af924c;
+    text-align: center;
+}
+
+/**/
+#add_remark_content{
+    text-align: center;
+}
+#add_remark_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#add_remark_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+    vertical-align: top;
+}
+#add_remark_content .textarea{
+    width:600px;
+    height: 100px;
+    border:1px solid #ddd;
+    display: inline-block;
+    text-indent: 10px;
+    resize: none;
+}
+#add_remark_content .submit{
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    width: 180px;
+    background-color: #525662;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    margin: auto;
+}
+#add_remark_content .table_wrap{
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#add_black_content{
+    width: 500px;
+    font-size: 14px;
+}
+#add_black_content .entry{
+    height: 34px;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#add_black_content .field_label{
+    width: 100px;
+    text-align: right;
+    vertical-align: top;
+}
+#add_black_content select{
+    width:300px;
+    text-indent: 10px;
+    height: 32px;
+}
+#add_black_content textarea{
+    width:300px;
+    height: 100px;
+    outline: none;
+    resize: none;
+    padding-left: 10px;
+}
+#add_black_content .tips{
+    text-align: center;
+    clear: both;
+    margin-top: 80px;
+    color:#b39a5a;
+}
+
+
+#view_record_content{
+    width: 600px;
+    font-size: 14px;
+    padding-bottom: 80px;
+}
+#view_record_content .entry{
+    height: 34px;
+    line-height: 34px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#view_record_content .field_label{
+    width: 100px;
+    text-align: right;
+    vertical-align: top;
+    float: left;
+}
+
+#view_record_content textarea{
+    width:440px;
+    height: 100px;
+    outline: none;
+    resize: none;
+    padding-left: 10px;
+    float: left;
+}
+
+
+
+
+
