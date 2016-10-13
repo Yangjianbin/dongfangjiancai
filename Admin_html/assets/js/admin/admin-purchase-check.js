@@ -1,0 +1,20 @@
+$(function(){
+    $('#check_pass').click(function(){
+        $.dialog({
+            title:'审核通过',
+            width:500,
+            height:150,
+            lock:true,
+            content:'<p style="text-align:center;line-height:30px">恭喜您，当前企业通过审核！<br><span class="highlight">3秒后自动返回企业管理</span></p>'
+        });
+    });
+    $('#check_unpass').click(function(){
+        $.dialog({
+            title:'客户回访',
+            ok:function(){},
+            cancel:function(){},
+            lock:true,
+            content:document.getElementById('check_unpass_content')
+        })
+    })
+})
