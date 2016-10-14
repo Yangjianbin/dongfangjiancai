@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-brand-add.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="account_mgr_nav"> 
+            <a href="./ProductManagement.html" >
+			    品牌管理
+			</a> <a href="./BrandAdd.html" class="active">
+			    新增品牌
+			</a></div>
+        <div class="search_box mt20">
+			<div class="clearfix">
+				<label for="" class="field_label">商品:</label>
+				<input type="text" class="field_input">
+				<label for="" class="field_label">企业名称:</label>
+				<input type="text" class="field_input">
+			</div>
+			<div class="clearfix">
+				<label for="" class="field_label">发布日期:</label>
+					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<button class="query_btn">
+					查询
+				</button>
+			</div>
+			<div class="clearfix status">
+				<label for="" class="field_label">品牌状态:</label>
+				<button class="active">全部</button>
+                <button>待审核(0)</button>
+                <button>未通过(1)</button>
+                <button>审核通过(1)</button>
+			</div>
+		</div>
+       
+       <div class="tools module-box">
+           <button id="delete">删除</button>
+           <button id="view">查看</button>
+       </div>
+        
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-brand-add.js"></script>
+    <div style="display:none">
+        <div id="check_content">
+            <div class="entry">
+                <label for="" class="field_label">
+                    填写备注：
+                </label>
+                <textarea ></textarea>
+            </div>
+        </div>
+    </div>
+    
+    <div style="display:none">
+        <div id="view_content">
+            <div class="entry">
+                <label for="" class="field_label">
+                    备注：
+                </label>
+                <textarea >xxxxxxxxxxxxxxxxxxxxxxxxx</textarea>
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+
+</html>
