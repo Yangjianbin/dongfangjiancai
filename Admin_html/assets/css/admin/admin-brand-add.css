@@ -1,0 +1,158 @@
+.account_mgr_nav{
+    padding-right: 10px;
+    background-color:#fff;
+    height: 60px;
+}
+.account_mgr_nav a{
+    height: 60px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    width:100px;
+    text-align: center;
+    color:#333;
+}
+.account_mgr_nav a:hover,.account_mgr_nav a.active{
+    border-bottom:2px solid #b39a5a;
+    color: #b39a5a;
+}
+.account_mgr_nav .back{
+    float: right;
+    color:#888;
+    padding-left: 20px;
+    width: 130px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.account_mgr_nav .back:hover{
+    color: inherit;
+    border: none;
+}
+
+.entry{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.entry .field_label{
+    width: 100px;
+    text-align: right;
+    float: left;
+    line-height: 34px;
+}
+.entry .field_value{
+    float: left;
+    line-height: 34px;
+}
+.entry .field_value .text{
+    height: 32px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    width: 270px;
+}
+.entry .upload_wrap{
+    width: 270px;
+    position: relative;
+    float: left;
+    height: 32px;
+}
+.entry .upload_wrap input[type=file]{
+    width: 100%;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-color: transparent;
+    z-index: 10;
+    cursor: pointer;
+    outline: none;
+}
+.entry .upload_wrap label{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height: 32px;
+    width: 70px;
+    background-color:#ddd;
+    text-align: center;
+    cursor: pointer;
+}
+.entry .field_value .info{
+    color: #888;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.entry .type{
+    
+}
+.entry .type ul li{
+    color: #ddd;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 4px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 25px;
+}
+.entry .type ul li.active{
+    color:#b39a5a;
+}
+.entry .type ul li.current{
+    color:#fff;
+    background-color: #b39a5a;
+    position: relative;
+    z-index: 2;
+}
+.entry .type ul li.current:after{
+    content: '';
+    width:15px;
+    height: 15px;
+    background-image: url(../../img/admin/icon_center_xuanzhong03.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    position: absolute;
+    bottom: -7px;
+    left: 5px;
+    z-index: 1;
+}
+.entry .type .type_items{
+    width: 670px;
+    border:1px solid #ddd;
+    margin-top: 10px;
+}
+.entry .type .type_items .item{
+
+}
+.entry .type .type_items .item label{
+    line-height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 12px;
+}
+.entry .type .type_items .item input[type=checkbox]{
+    vertical-align:text-top;
+    margin-top:0;
+}
+.entry .type .type_selected{
+    background-color: #f1f1f1;
+    font-size: 12px;
+    color:#b39a5a;
+    padding:10px;
+    line-height:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
