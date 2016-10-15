@@ -1,0 +1,112 @@
+.category_title{
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.tools{
+    padding-top: 20px;
+}
+.tools button{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    border:1px solid #ddd;
+}
+
+.category{
+    margin-top: 20px;
+}
+.category tr[data-parent]{
+    display: none;
+}
+.category td{
+    line-height: 30px;
+    height: 30px;
+}
+.category td.second{
+    padding-left: 50px;
+}
+.category td.third{
+    padding-left: 100px;
+}
+.category th:nth-child(1){
+    width: 770px;
+}
+.category td:nth-child(2) {
+    text-align: right;
+    padding-right: 20px;
+}
+.category td:nth-child(2) a{
+    margin-right: 10px;
+}
+.category i{
+    width: 14px;
+    height: 14px;
+    line-height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    cursor: pointer;
+    background-size:80%;
+    margin-right: 5px;
+    background-image: url(../../img/admin/icon_center_tianjia.png);
+}
+.category .on{
+    background-image: url(../../img/admin/icon_center_shanchu.png);
+}
+
+#add_content{
+    font-size: 14px;
+    width:540px;
+}
+#add_content .entry{
+    padding: 20px 0px;
+    clear: both;
+    text-align: center;
+}
+#add_content .field_label{
+    text-align: right;
+    width:90px;
+    height:32px;
+    line-height: 32px;
+    float: left;
+}
+#add_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    float: left;
+    text-indent: 10px;
+}
+
+#add_content .tips{
+    font-size: 12px;
+    color: #888;
+    padding-left: 10px;
+    line-height: 32px;
+    float: left;
+    padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

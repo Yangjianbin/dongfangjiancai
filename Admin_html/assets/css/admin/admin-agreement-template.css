@@ -1,0 +1,120 @@
+.account_mgr_nav{
+    padding-right: 10px;
+    background-color:#fff;
+    height: 60px;
+}
+.account_mgr_nav a{
+    height: 60px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    width:120px;
+    text-align: center;
+    color:#333;
+}
+.account_mgr_nav a:hover,.account_mgr_nav a.active{
+    border-bottom:2px solid #b39a5a;
+    color: #b39a5a;
+}
+.account_mgr_nav .back{
+    float: right;
+    color:#888;
+    padding-left: 20px;
+    width: 130px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.account_mgr_nav .back:hover{
+    color: inherit;
+    border: none;
+}
+
+.nav_title{
+    height: 55px;
+    line-height:55px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav_title .back{
+    color: #888;
+    float: right;
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+.entry_title{
+    font-weight: bold;
+    font-size: 14px;
+}
+.entry{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.entry .field_label{
+    width: 114px;
+    padding-right: 5px;
+    text-align: right;
+    line-height: 34px;
+    height: 34px;
+    float: left;
+}
+.entry .field_value {
+    float: left;
+}
+.entry .field_value .desc{
+    color: #888;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.entry .field_value .text{
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    color: #888;
+    width:317px;
+    float:left;
+}
+.entry .field_value .textarea{
+    width: 700px;
+    border:1px solid #ddd;
+    height: 100px;
+    padding: 5px;
+    outline: none;
+    resize: none;
+}
+.entry .submit button{
+    font-size: 16px;
+    height: 34px;
+    border-radius: 2px;
+    width: 320px;
+    background-color: #4f5563;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+
+
+
+.tools{
+    padding-top: 10px;
+}
+.tools button{
+    height: 28px;
+    border:1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background: white;
+    color: #666;
+    width: 120px;
+    margin-right: 10px;
+}

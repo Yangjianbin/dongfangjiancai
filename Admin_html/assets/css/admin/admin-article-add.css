@@ -1,0 +1,157 @@
+.account_mgr_nav{
+    padding-right: 10px;
+    background-color:#fff;
+    height: 60px;
+}
+.account_mgr_nav a{
+    height: 60px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    width:100px;
+    text-align: center;
+    color:#333;
+}
+.account_mgr_nav a:hover,.account_mgr_nav a.active{
+    border-bottom:2px solid #b39a5a;
+    color: #b39a5a;
+}
+.account_mgr_nav .back{
+    float: right;
+    color:#888;
+    padding-left: 20px;
+    width: 130px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.account_mgr_nav .back:hover{
+    color: inherit;
+    border: none;
+}
+.entry{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.entry .field_label{
+    width: 114px;
+    padding-right: 5px;
+    text-align: right;
+    line-height: 34px;
+    height: 34px;
+    float: left;
+}
+.entry .field_value {
+    float: left;
+}
+.entry .field_value .desc{
+    color: #888;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.entry .field_value .text{
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    color: #888;
+    width:317px;
+    float:left;
+}
+.entry .field_value .textarea{
+    width: 700px;
+    border:1px solid #ddd;
+    height: 100px;
+    padding: 5px;
+    outline: none;
+    resize: none;
+}
+.entry .field_value .upload{
+
+}
+.entry .field_value .upload a{
+    display: block;
+    width: 180px;
+    height: 100px;
+    float: left;
+    margin-right: 50px;
+    position: relative;
+    border:1px solid #ddd;
+}
+.entry .field_value .upload a:before{
+    content: '';
+    background-image: url(../../img/admin/icon_center_uploading.png);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 28px;
+    bottom:50%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+
+}
+.entry .field_value .upload a .pic{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background-color: #f1f1f1;
+}
+.entry .field_value .upload a .pic i{
+    position: absolute;
+    top:0px;
+    right:-1px;
+    background-color: #919191;
+    width: 20px;
+    height: 18px;
+    background-image: url(../../img/admin/icon_center_close01.pn2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.entry .field_value .upload a span{
+    text-align: center;
+    display: block;
+    line-height: 130px;
+    font-size: 14px;
+    color:#aaa;
+}
+.entry .field_value .upload a input[type=file]{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+.entry .field_value .entry_radio{
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.entry .field_value .entry_radio label{
+    padding-right: 20px;
+}
+.entry .submit button{
+    font-size: 16px;
+    height: 34px;
+    border-radius: 2px;
+    width: 320px;
+    background-color: #4f5563;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

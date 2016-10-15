@@ -1,0 +1,129 @@
+.container{
+
+}
+.admin_title{
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+
+.tools{
+    padding-top: 10px;
+}
+.tools button{
+    height: 28px;
+    border:1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background: white;
+    color: #666;
+    width: 120px;
+    margin-right: 10px;
+}
+
+
+#add_content{
+    font-size: 14px;
+    width:500px;
+}
+#add_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#add_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+}
+#add_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    display: inline-block;
+    text-indent: 10px;
+}
+
+#update_pwd_content{
+    font-size: 14px;
+    width:500px;
+}
+#update_pwd_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#update_pwd_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+}
+#update_pwd_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    display: inline-block;
+    text-indent: 10px;
+}
+
+#update_auth_content{
+    font-size: 14px;
+    width:500px;
+}
+#update_auth_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#update_auth_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+}
+#update_auth_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    display: inline-block;
+    text-indent: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
