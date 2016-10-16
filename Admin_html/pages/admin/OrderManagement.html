@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-order-mgr.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_title">
+			订单管理
+        </div>
+
+        <div class="search_box mt20">
+			<div class="clearfix">
+				<label for="" class="field_label">订单编号:</label>
+				<input type="text" class="field_input">
+                <label for="" class="field_label">工程名称:</label>
+				<input type="text" class="field_input">
+			</div>
+			<div class="clearfix">
+				<label for="" class="field_label">下单日期:</label>
+					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<button class="query_btn fl">
+					查询
+				</button>
+			</div>
+			<div class="clearfix status">
+				<label for="" class="field_label">订单状态:</label>
+				<button class="active">全部</button>
+                <button>交易中(0)</button>
+                <button>交易完成(1)</button>
+                <button>已关闭(0)</button>
+			</div>
+		</div>
+
+       <div class="tools module-box">
+        <a href="./AgreementView.html"><button>平台签约</button></a>
+        <a href="./OrderConfirm.html"><button>确认到账</button></a>
+        <a href="./DeliverCheck.html"><button>发货审核</button></a>
+        <a href="./ReceiveCheck.html"><button>到货审核</button></a>
+        <a target="_blank" href="./AgreementUnionOrder.html"><button>查看历史订单</button></a>
+        <a target="_blank" href="./AgreementUnionOrder.html"><button>订单详情</button></a>
+
+        <button id="add_remark">添加备注</button>
+        <button id="close">关闭</button>
+        <button id="push">推送</button>
+        <button id="unpush">撤回推送</button>
+       </div>
+
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-order-mgr.js"></script>
+
+<div style="display:none">
+	<div id="add_remark_content">
+		<div class="entry">
+			<label for="" class="field_label">备注内容：</label>
+			<textarea name="name" class="textarea"></textarea>
+		</div>
+		<div class="submit">
+			提交
+		</div>
+		<div class="table_wrap">
+
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>

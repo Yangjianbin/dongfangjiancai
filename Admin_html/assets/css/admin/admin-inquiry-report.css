@@ -1,0 +1,127 @@
+.nav_title{
+    height: 55px;
+    line-height:55px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav_title .back{
+    color: #888;
+    float: right;
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.view_title{
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.view_title span{
+    padding-left: 50px;
+}
+.view_title a{
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    background-color: #af924c;
+    padding:3px 10px;
+}
+.select_brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.select_brand label{
+    padding-right: 20px;
+}
+.select_brand label input{
+    margin-right: 8px;
+}
+.total{
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #888;
+}
+.total span{
+    float: right;
+    color: #333;
+}
+table td,table th{
+    text-align: center;
+}
+table th:nth-child(6){
+    width: 150px;
+}
+table td:nth-child(6) input{
+    width: 100px;
+    height: 30px;
+    border:1px solid #666;
+    text-indent: 10px;
+}
+.inquiry_info{
+
+}
+.inquiry_info li{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    float: left;
+}
+.field_list{
+    border-top: 1px solid #ddd;
+}
+.entry{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.entry .field_label{
+    width: 100px;
+    line-height: 34px;
+    vertical-align: top;
+    text-align: right;
+}
+.entry .field_value{
+    display: inline-block;
+}
+.entry .field_value input{
+    height: 32px;
+    width: 280px;
+    border:1px solid #ddd;
+    margin-right: 20px;
+    text-indent: 10px;
+}
+.entry .field_value p{
+    color: #888;
+    padding-top: 10px;
+}
+.entry .field_value .supply{
+    padding-right: 30px;
+    background-position: 250px center;
+    background-repeat: no-repeat;
+    background-image: url(../../img/admin/icon_center_caidan.png);
+}
+.entry .field_value .textarea{
+    width: 600px;
+    outline: none;
+    resize: none;
+    height: 100px;
+    padding: 10px;
+}
+.entry .submit button{
+    width: 280px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 16px;
+    color: white;
+    background-color: #525662;
+    margin-left: 380px;
+    border: none;
+    outline: none;
+}
