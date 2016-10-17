@@ -49,6 +49,11 @@
     width:80px;
     text-align: right
 }
+.name_entry label.brand{
+    width: 450px;
+    text-align: left;
+    padding-top: 50px;
+}
 .name_entry input{
     height: 30px;
     width: 280px;
@@ -204,4 +209,39 @@
     margin:auto;
     display: block;
     margin-top: 40px;
+}
+
+
+.brand_content {
+    margin-left: 80px;
+    padding-top: 20px;
+}
+.brand_content li{
+    width: 180px;
+    height: 100px;
+    border:1px solid #ddd;
+    background-image: url(../../img/admin/icon_center_uploading.png) ;
+    background-position:center  32% ;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.brand_content li:nth-last-child(1){
+    margin-right: 0px;
+}
+.brand_content li .text{
+    text-align: center;
+    color: #aaa;
+    font-size: 14px;
+    margin-top: 60px;
+}
+.brand_content li .desc{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
 }
