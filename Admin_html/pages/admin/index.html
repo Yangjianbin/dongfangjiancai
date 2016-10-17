@@ -9,6 +9,7 @@
     <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
     <link href="../../assets/css/admin/custom.css" rel="stylesheet">
+	<link href="../../assets/css/admin/admin-index.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
@@ -77,7 +78,7 @@
                 </ul>
                 <ul class="menu">
                     <li>小西瓜 <a href="#">退出</a></li>
-                    <li><a href="#">修改密码</a></li>
+                    <li><a href="javascript:;" id="update_pwd">修改密码</a></li>
                     <li><a href="#">消息（0）</a></li>
                 </ul>
             </div>
@@ -94,10 +95,13 @@
         </div>
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+	<script src="../../assets/js/admin/jquery.artDialog.js"></script>
+	<script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
     <script src="../../assets/js/admin/bootstrap.min.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/custom.js"></script>
+	<script src="../../assets/js/admin/admin-index.js"></script>
     <script>
         function logout() {
             $.removeCookie('Himall-User', { path: '/' });
@@ -105,5 +109,25 @@
             location.reload();
         }
     </script>
+<div style="display:none">
+	<div id="update_pwd_content">
+		<div class="entry">
+			<label for="" class="field_label">当前用户：</label>
+			<input type="text" class="field_value" value="小西瓜" readonly>
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">旧密码：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">新密码：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">重复密码：</label>
+			<input type="text" class="field_value">
+		</div>
+	</div>
+</div>
 </body>
 </html>

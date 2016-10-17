@@ -1,0 +1,29 @@
+#update_pwd_content{
+    font-size: 14px;
+    width:500px;
+}
+#update_pwd_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    text-align: center;
+}
+#update_pwd_content .field_label{
+    text-align: right;
+    width:70px;
+    height:32px;
+    line-height: 32px;
+    display: inline-block;
+}
+#update_pwd_content .field_value{
+    width:270px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+display: inline-block;
+    text-indent: 10px;
+}
+#update_pwd_content .warn{
+    clear: both;
+    color:#af924c;
+    text-align: center;
+}
