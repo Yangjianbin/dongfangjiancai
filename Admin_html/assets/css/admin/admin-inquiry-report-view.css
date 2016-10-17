@@ -1,0 +1,100 @@
+.nav_title{
+    height: 55px;
+    line-height:55px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav_title .back{
+    color: #888;
+    float: right;
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.view_title{
+    border-bottom: 1px solid #ddd;
+    padding-top: 15px;
+    padding-bottom: 15px;
+        font-size: 16px;
+}
+.view_title span{
+    padding-left: 50px;
+}
+.view_title a{
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    background-color: #af924c;
+    padding:3px 10px;
+}
+.select_brand {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.select_brand label{
+    padding-right: 20px;
+}
+.select_brand label input{
+    margin-right: 8px;
+}
+.total{
+    padding-top: 10px;
+    padding-bottom:10px;
+    color: #888;
+}
+.total span{
+    float: right;
+    color: #333;
+}
+table td,table th{
+    text-align: center;
+}
+table th:nth-child(6){
+    width: 150px;
+}
+table td:nth-child(6) input{
+    width: 100px;
+    height: 30px;
+    border:1px solid #666;
+    text-indent: 10px;
+}
+.inquiry_info{
+    position: relative;
+}
+.inquiry_info li{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    float: left;
+}
+.inquiry_info li:nth-child(n){
+    width: 160px;
+}
+.inquiry_info li:nth-child(3n+2){
+    width: 300px;
+}
+.inquiry_info li:nth-child(3n){
+    width: 500px;
+}
+.inquiry_info li.link{
+    position: absolute;
+    right: 0px;
+    top:30px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    font-size: 16px;
+    background-color: #af924c;
+    border-radius: 2px;
+}
+.inquiry_info li.link a{
+    color: white;
+    display: block;
+    text-align: center;
+    line-height: 10px;
+}

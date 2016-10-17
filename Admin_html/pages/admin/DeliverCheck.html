@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-deliver-check.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav_title">
+            发货审核
+            <a class="back" href="./OrderManagement.html">返回订单管理</a>
+        </div>
+
+        <div class="module-box">
+            <div class="left-box fl">
+                <div class="entry row">
+                    <label for="" class="field_label"><span class="highlight">*</span>确认发货日期：</label>
+                    <div class="field_value">
+                        <input type="text" class="date">
+                    </div>
+                </div>
+                <div class="entry row">
+                    <label for="" class="field_label">订单编号：</label>
+                    <div class="field_value deliver_way">
+                        <button class="active">自取</button><button>供应商配送</button>
+                    </div>
+                </div>
+                <div class="entry row">
+                    <label for="" class="field_label">物流名称：</label>
+                    <div class="field_value">
+                        <input type="text">
+                    </div>
+                </div>
+                <div class="entry row">
+                    <label for="" class="field_label">货运单号：</label>
+                    <div class="field_value">
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="entry row">
+                    <label for="" class="field_label">备注：</label>
+                    <div class="field_value">
+                        <textarea name="name"  class="textarea"></textarea>
+                    </div>
+                </div>
+
+            </div>
+            <div class="right-box fr">
+                <div class="entry row">
+
+                    <div class="field_value">
+                        <div class="upload clearfix">
+
+                            <a href="javascript:;">
+                                <input type="file"><span>
+                                    点击上传
+                                </span>
+                                <div class="pic">
+                                    <img src="../../assets/img/admin/image_center_tupian.png" alt="">
+                                    <i></i>
+                                </div>
+                            </a>
+                        </div>
+                        <p style="text-align:center;">
+                            从新上传
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="action">
+                <button class="cancel">取消</button>
+                <button class="submit">确认发货</button>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-deliver-check.js"></script>
+
+
+</body>
+
+</html>

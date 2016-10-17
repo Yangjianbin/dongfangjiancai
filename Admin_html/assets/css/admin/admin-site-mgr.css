@@ -1,0 +1,87 @@
+.container{
+    padding-top: 0px;
+    background-color: #fff;
+    margin-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.company_title{
+    font-size: 16px;font-weight: normal;border-bottom: 1px solid #e3e3e3;
+    background-color: #fff;
+    padding-left: 20px;
+    height: 52px;
+    line-height: 52px;
+}
+.field_list{
+
+}
+.field_list li{
+    /*height: 30px;
+    line-height: 30px;*/
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.field_list li>label{
+    line-height: 30px;
+}
+.field_list .field_name{
+    width:110px;
+    text-align: right;
+    float: left;
+        padding-right: 5px;
+}
+.field_list input[type="text"]{
+    width: 300px;
+    padding-left: 10px;
+}
+.field_list .field_value{
+    height: 30px;
+    float: left;
+    border:1px solid #ccc;
+}
+.field_list .uploadpic{
+    height: 30px;
+    line-height: 20px;
+    background-color: #ddd;
+    color:#000;
+    border:none;
+}
+.field_list .info{
+    display: block;
+    padding-left: 80px;
+    padding-bottom:0px;
+    padding-top: 0px;
+    color: #aaa;
+}
+.field_list .labels{
+    width:300px;
+    display: inline-block;
+}
+.field_list .labels button{
+    height: 30px;
+    line-height: 22px;
+    color:#000;
+    background-color: #fff;
+    border:1px solid #ccc;
+    width:94px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    position: relative;
+}
+.field_list .labels button:nth-child(3n){
+    margin-right: 0px;
+}
+
+.submit{
+    float: left;
+    width: 300px;
+    height: 34px;
+    line-height: 34px;
+    background: #4f5562;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    color: #f5f5f5;
+    border-radius: 3px;
+    border:none;
+}
