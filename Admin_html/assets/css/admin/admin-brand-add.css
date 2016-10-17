@@ -125,8 +125,12 @@
     margin-top: 10px;
 }
 .entry .type .type_items .item{
-
+    display: none;
 }
+.entry .type .type_items .item.active{
+    display: block;
+}
+
 .entry .type .type_items .item label{
     line-height: 10px;
     padding-left: 10px;
@@ -143,9 +147,38 @@
     color:#b39a5a;
     padding:10px;
     line-height:8px;
+    border-bottom: 1px  solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
 }
-
-
+.entry .type .type_selected span{
+    margin-right: 10px;
+}
+.entry .field_value .textarea{
+    width: 670px;
+    resize: none;
+    border:1px solid #ddd;
+    height: 100px;
+    padding: 10px;
+    line-height: 1.4;
+    outline: none;
+}
+.entry .field_value.action button{
+    border-radius: 2px;
+    height: 32px;
+    border:1px solid #4f5563;
+    width: 150px;
+    color: #4f5563;
+    font-size: 16px;
+    background-color: #fff;
+    outline: none;
+    line-height: 1.4;
+    margin-right: 20px;
+}
+.entry .field_value.action button.submit{
+    color: white;
+    background-color: #4f5563;
+}
 
 
 

@@ -20,7 +20,7 @@
 <body>
     <div class="container">
         <div class="account_mgr_nav"> 
-            <a href="./ProductManagement.html" >
+            <a href="./BrandManagement.html" >
 			    品牌管理
 			</a> <a href="./BrandAdd.html" class="active">
 			    新增品牌
@@ -77,34 +77,57 @@
                         <li>D</li>
                     </ul>
                     <div class="type_items clearfix">
-                        <div class="item">
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                            <label><input type="checkbox">AAAA</label>
-                        </div>
-<!--
-                        <div class="item">
-                            <label><input type="checkbox">BBBB</label>
+                        <div class="item active">
+                            <label><input value="A1" type="checkbox">AAAA</label>
+                            <label><input value="A2" type="checkbox">AAAA</label>
+                            <label><input value="A3" type="checkbox">AAAA</label>
+                            <label><input value="A5" type="checkbox">AAAA</label>
+                            <label><input value="A6" type="checkbox">AAAA</label>
+                            <label><input value="A7" type="checkbox">AAAA</label>
+                            <label><input value="A4" type="checkbox">AAAA</label>
+                            <label><input value="A8" type="checkbox">AAAA</label>
+                            <label><input value="A9" type="checkbox">AAAA</label>
+                            <label><input value="A10" type="checkbox">AAAA</label>
+                            <label><input value="A11" type="checkbox">AAAA</label>
+                            <label><input value="A12" type="checkbox">AAAA</label>
+                            <label><input value="A13" type="checkbox">AAAA</label>
+                            <label><input value="A14" type="checkbox">AAAA</label>
+                            <label><input value="A15" type="checkbox">AAAA</label>
                         </div>
                         <div class="item">
-                            <label><input type="checkbox">CCCC</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1" type="checkbox">BBBB</label>
+                            <label><input  value="B1" type="checkbox">BBBB</label>
+                            <label><input  value="B1"  type="checkbox">BBBB</label>
+                            <label><input  value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1"  type="checkbox">BBBB</label>
+                            <label><input value="B1"  type="checkbox">BBBB</label>
+                            <label><input  value="B1" type="checkbox">BBBB</label>
+                            <label><input value="B1"  type="checkbox">BBBB</label>
+                            <label><input value="B1"  type="checkbox">BBBB</label>
                         </div>
                         <div class="item">
-                            <label><input type="checkbox">DDDD</label>
+                            <label><input  value="C1"  type="checkbox">CCCC</label>
+                            <label><input value="C1"  type="checkbox">CCCC</label>
+                            <label><input  value="C1" type="checkbox">CCCC</label>
+                            <label><input value="C1"  type="checkbox">CCCC</label>
+                            <label><input value="C1"  type="checkbox">CCCC</label>
+                            <label><input value="C1"  type="checkbox">CCCC</label>
                         </div>
--->
+                        <div class="item">
+                            <label><input  value="D1"  type="checkbox">DDDD</label>
+                            <label><input value="D1"  type="checkbox">DDDD</label>
+                            <label><input value="D1"  type="checkbox">DDDD</label>
+                            <label><input  value="D1" type="checkbox">DDDD</label>
+                            <label><input  value="D1" type="checkbox">DDDD</label>
+                            <label><input  value="D1" type="checkbox">DDDD</label>
+                            <label><input value="D1"  type="checkbox">DDDD</label>
+                        </div>
                     </div>
                     <div class="type_selected">
                         已选择：<span></span>
@@ -116,25 +139,19 @@
                     品牌简介：
                 </label>
                 <div class="field_value">
-                    <textarea name="" id="" ></textarea>
+                    <textarea name="" id="" class="textarea"></textarea>
                 </div>
             </div>
             <div class="entry row">
                 <label for="" class="field_label">
                 </label>
-                <div class="field_value btns">
+                <div class="field_value action">
                     <button>取消</button>
-                    <button>提交</button>
+                    <button class="submit">提交</button>
                 </div>
             </div>
         </div>
-       
-       
-       <div class="tools module-box">
-           <button id="delete">删除</button>
-           <button id="view">查看</button>
-       </div>
-        
+
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
@@ -145,31 +162,7 @@
     <script src="../../assets/js/jquery.cookie.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/admin-brand-add.js"></script>
-<!--
-    <div style="display:none">
-        <div id="check_content">
-            <div class="entry">
-                <label for="" class="field_label">
-                    填写备注：
-                </label>
-                <textarea ></textarea>
-            </div>
-        </div>
-    </div>
-    
-    <div style="display:none">
-        <div id="view_content">
-            <div class="entry">
-                <label for="" class="field_label">
-                    备注：
-                </label>
-                <textarea >xxxxxxxxxxxxxxxxxxxxxxxxx</textarea>
-            </div>
-        </div>
-    </div>
--->
-    
-    
+
 </body>
 
 </html>

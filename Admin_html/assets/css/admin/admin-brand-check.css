@@ -1,0 +1,87 @@
+.nav_title{
+    height: 55px;
+    line-height:55px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav_title .back{
+    color: #888;
+    float: right;
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+
+
+.entry{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+.entry .field_label{
+    width: 150px;
+    text-align: right;
+    float: left;
+    line-height: 34px;
+    height: 34px;
+}
+.entry .field_value{
+    float: left;
+    line-height: 34px;
+}
+.entry .field_value .text{
+    height: 32px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    width: 270px;
+}
+
+.entry .field_value .info{
+    color: #888;
+    font-size: 12px;
+    padding-left: 15px;
+}
+
+
+.entry .field_value.action button{
+    border-radius: 2px;
+    height: 32px;
+    border:1px solid #4f5563;
+    width: 150px;
+    color: #4f5563;
+    font-size: 16px;
+    background-color: #fff;
+    outline: none;
+    line-height: 1.4;
+    margin-right: 20px;
+}
+.entry .field_value.action button.submit{
+    color: white;
+    background-color: #4f5563;
+}
+
+
+#refuse_content{
+    width: 500px;
+}
+#refuse_content .entry{
+    font-size: 14px;
+    text-align: center;
+}
+#refuse_content .field_label{
+    width: 80px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#refuse_content textarea{
+    width: 380px;
+    height: 100px;
+    resize: none;
+    border:1px solid #ddd;
+
+}
