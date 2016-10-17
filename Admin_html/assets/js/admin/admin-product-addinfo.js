@@ -1,4 +1,8 @@
 $(function(){
+    
+    var eidtor = UE.getEditor('desc');
+    
+    
     $('.submit').click(function(){
         $.dialog({
             title:'商品发布',

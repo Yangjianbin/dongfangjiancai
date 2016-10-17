@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/admin-mgr.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+
+        <div class="module-box">
+            <div class="admin_title">
+    			管理员
+            </div>
+			<div class="tools">
+				<button id="add">添加成员</button>
+				<button id="remove">转移</button>
+				<button id="frozen">冻结成员</button>
+				<button id="open">开启成员</button>
+                <button id="update_pwd">修改密码</button>
+                <button id="update_auth">修改权限</button>
+                <button id="delete">删除</button>
+			</div>
+        </div>
+
+
+	</div>
+	<script src="../../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../../assets/js/admin/artDialog.iframeTools.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../../assets/js/admin/admin-mgr.js"></script>
+
+<div style="display:none">
+	<div id="add_content">
+
+		<div class="entry">
+			<label for="" class="field_label">用户名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">密码：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">权限组：</label>
+			<select name="" id="" class="field_value">
+				<option value="">请选择</option>
+			</select>
+		</div>
+	</div>
+</div>
+<div style="display:none">
+	<div id="update_pwd_content">
+
+		<div class="entry">
+			<label for="" class="field_label">用户名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">新密码：</label>
+			<input type="text" class="field_value">
+		</div>
+
+	</div>
+</div>
+
+<div style="display:none">
+	<div id="update_auth_content">
+		<div class="entry">
+			<label for="" class="field_label">用户名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">权限组：</label>
+            <select name="" id="" class="field_value">
+				<option value="">请选择</option>
+			</select>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

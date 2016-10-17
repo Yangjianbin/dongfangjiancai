@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/admin-black-list.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="module-box title">
+			黑名单
+        </div>
+		<div class="search_box">
+			<div class="clearfix">
+				<label for="" class="field_label">客户:</label>
+				<input type="text" class="field_input">
+				<label for="" class="field_label">客户类型:</label>
+				<select name="" id="" class="field_input">
+					<option value="">111</option>
+				</select>
+			</div>
+			<div class="clearfix">
+				<label for="" class="field_label">注册日期:</label>
+					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<button class="query_btn">
+					查询
+				</button>
+			</div>
+		</div>
+        <div class="module-box">
+			<div class="tools">
+				<button id="add_black">添加黑名单</button>
+				<button id="remove_account">删除账户</button>
+				<button id="view_record">查看记录</button>
+				<button id="repair">还原</button>
+			
+			</div>
+        </div>
+
+
+	</div>
+	<script src="../../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../../assets/js/admin/artDialog.iframeTools.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../../assets/js/admin/admin-black-list.js"></script>
+<div style="display:none">
+	<div id="add_black_content">
+	    <div class="entry">
+	        <label for="" class="field_label"><span class="highlight">*</span>添加黑名单：</label>
+            <select name="" id=""></select>
+	    </div>
+	    <div class="entry">
+	        <label for="" class="field_label"><span class="highlight">*</span>填写备注：</label>
+            <textarea name="" id=""></textarea>
+	    </div>
+	    <div class="tips highlight">
+	        提示：添加黑名单后，当前客户的账户将被禁用，无法登陆。
+	    </div>
+	</div>
+</div>
+<div style="display:none">
+	<div id="view_record_content">
+	    <div class="entry">
+	        <label for="" class="field_label"><span class="highlight">*</span>日期：</label>
+          
+            <label for="" class="field_label" style="text-align:left;">2016-66-66</label>
+	    </div>
+	    <div class="entry">
+	        <label for="" class="field_label"><span class="highlight">*</span>备注：</label>
+            <textarea name="" id="" readonly>xxxxxxxxxxx</textarea>
+	    </div>
+	   
+	</div>
+</div>
+</body>
+</html>

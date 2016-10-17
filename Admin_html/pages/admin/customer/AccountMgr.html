@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/admin-account-mgr.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="account_mgr_nav"> <a href="./AccountMgr.html" class="active">
+			    账户信息
+			</a> <a href="./AddressMgr.html">
+			    收货地址
+			</a> <a href="./InvoiceMgr.html">
+			    开票信息
+			</a> <a href="#">
+			    积分管理
+			</a> <a class="back" href="./Account.html">
+                返回账户管理
+            </a> </div>
+        <div class="module-box account_info">
+            <div class="entry">
+                <div class="field_label"> 账户头像: </div>
+                <div class="field_value avator"> <img src="" alt=""> </div>
+            </div>
+            <div class="entry">
+                <div class="field_label"> 姓名: </div>
+                <div class="field_value"> 张三 </div>
+            </div>
+            <div class="entry">
+                <div class="field_label"> 注册手机号码: </div>
+                <div class="field_value phone"> 张三 <a href="#" id="change_phone" class="change_phone">更换</a> <a href="javascript:;" id="record" class="record">查看记录</a> </div>
+            </div>
+            <div class="entry">
+                <div class="field_label"> 用户名: </div>
+                <div class="field_value"> 张三 </div>
+            </div>
+            <div class="entry">
+                <div class="field_label"> 客户类型: </div>
+                <div class="field_value"> 张三 </div>
+            </div>
+            <div class="entry">
+                <div class="field_label"> 注册申请日期: </div>
+                <div class="field_value"> 2022-22-22 22:22:22 </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../../assets/js/admin/admin-account-mgr.js"></script>
+    <div style="display:none">
+        <div id="change_phone_content">
+            <div class="entry">
+                <label for="" class="field_label"> <span class="highlight">*</span>新手机号码: </label>
+                <input type="text" class="field_value"> </div>
+            <div class="entry">
+                <label for="" class="field_label"> <span class="highlight">*</span>备注: </label>
+                <textarea name="name" class="field_value textarea"></textarea>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

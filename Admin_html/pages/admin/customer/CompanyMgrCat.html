@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../../assets/css/admin/admin-company-mgrcat.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+        <div class="mgrcat_title">
+            经营类目
+        </div>
+        <div class="mt20 module-box photo">
+
+        </div>
+        <div class="mt20 module-box catlist">
+            <table class="table table-bordered">
+                <tr>
+                    <th>经营类目</th>
+                    <th>分佣比例</th>
+                    <th>操作</th>
+                </tr>
+                <tr>
+                    <td>xxxxxxxx</td>
+                    <td>xxxxx</td>
+                    <td><a href="javascript:;">删除</a></td>
+                </tr>
+            </table>
+            <a href="javascript:;" id="add_cat">新增经营类目</a>
+            <button class="save">
+                保存
+            </button>
+        </div>
+
+
+
+	</div>
+	<script src="../../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../../assets/js/admin/artDialog.iframeTools.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+	<script src="../../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../../assets/js/admin/admin-company-mgrcat.js"></script>
+
+<div style="display:none">
+	<div id="add_cat_content">
+		<div class="entry">
+			<label for="" class="field_label">经营类目：</label>
+            <div class="field_value">
+                <select class="" name="">
+                    <option value=""></option>
+    		    </select>
+                <select class="" name="">
+                    <option value=""></option>
+    		    </select>
+            </div>
+
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">细类：</label>
+			<div class="field_value">
+			    <label ><input type="checkbox"> 实木地板</label>
+                <label ><input type="checkbox"> 复合地板</label>
+                <label ><input type="checkbox"> 木软木地板</label>
+                <label ><input type="checkbox"> 橡胶地板</label>
+                <label ><input type="checkbox"> 活动地板</label>
+                <label ><input type="checkbox"> 地板辅材</label>
+                <label ><input type="checkbox"> 悬浮地板</label>
+                <label ><input type="checkbox"> 户外木塑地板</label>
+                <p><span class="highlight">注：三级类目可多选</span></p>
+			</div>
+		</div>
+		<div class="entry">
+			<label for="" class="field_label"><span class="highlight">*</span>分佣比例：</label>
+			<input type="text" class="field_value min">%
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>

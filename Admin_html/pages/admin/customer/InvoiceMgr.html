@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../../assets/css/admin/admin-invoice-mgr.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+         <div class="account_mgr_nav"> <a href="./AccountMgr.html">
+			    账户信息
+			</a> <a href="./AddressMgr.html">
+			    收货地址
+			</a> <a href="./InvoiceMgr.html"  class="active" >
+			    开票信息
+			</a> <a href="#">
+			    积分管理
+			</a> <a class="back" href="./Account.html">
+                返回账户管理
+            </a> </div>
+            <div class="box clearfix" style="padding-bottom: 20px;margin-top:20px;">
+                <div class="panel_title">
+                   发票信息管理
+                </div>
+                <div class="mt20 invoicebtn">
+                    <button class="active">增值税(专用发票) <i></i> </button>
+                    <button>增值税(普通发票)</button>
+                </div>
+                <div class="invoice_box mt20">
+                
+<!--                判断是否显示 静态页面默认两个都显示页面样式-->
+                <button class="add_invoice" id="add_invoice">新增发票信息</button> 
+               
+                <div class="item_title">
+                    小南瓜网络科技
+                </div>
+                <ul>                   
+                    <li class="prop clearfix">
+                        <div class="dt">注册地址：</div>
+                        <div class="dd">xxx</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">注册电话：</div>
+                        <div class="dd">xxx</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">单位税号：</div>
+                        <div class="dd">xxx</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">开户银行：</div>
+                        <div class="dd">xxx</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">银行账号：</div>
+                        <div class="dd">xxx</div>
+                    </li>
+                </ul>
+                <div class="item_tools">
+                    <a href="#" class="">修改</a>
+                </div>
+                
+            </div>
+            </div>
+        <div class="box clearfix mt20">
+            <div class="panel_title">
+               发票寄送地址
+            </div>
+            <div class="mt20">
+                <button class="add_address" id="add_address">新增寄送地址</button>
+               
+            </div>
+            <div class="item mt20 clearfix">
+                <div class="item_title">
+                    陈士骏&nbsp;&nbsp;浙江 
+                </div>
+                <ul>
+                    
+                    <li class="prop clearfix">
+                        <div class="dt">收货人：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">收货地址：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">手机号码：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">固定电话：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">电子邮箱：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                </ul>
+                <a href="#" class="close"></a>
+                <div class="item_tools">
+                    <a href="#" class="">编辑</a>
+                </div>
+                
+            </div>
+            <div class="item mt20 clearfix">
+                <div class="item_title">
+                    陈士骏&nbsp;&nbsp;浙江  <span class="default">默认地址</span>
+                </div>
+                <ul>
+                    
+                    <li class="prop clearfix">
+                        <div class="dt">收货人：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">收货地址：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">手机号码：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">固定电话：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                    <li class="prop clearfix">
+                        <div class="dt">电子邮箱：</div>
+                        <div class="dd">陈士骏</div>
+                    </li>
+                </ul>
+                <a href="#" class="close"></a>
+                <div class="item_tools">
+                    <a href="#" class="">设置为默认</a>
+                    <a href="#" class="">编辑</a>
+                </div>
+                
+            </div>
+      
+        </div>
+    </div>
+    <script src="../../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../../assets/js/jquery.cookie.js"></script>
+    <script src="../../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../../assets/js/admin/admin-invoice-mgr.js"></script>
+<div style="display:none;">
+    <div id="add_invoice_content">
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>单位名称
+            </label>
+            <input type="text" />
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>注册地址
+            </label>
+            <input type="text" />
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>注册电话
+            </label>
+            <input type="text" />
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>单位税号
+            </label>
+            <input type="text" />
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>开户银行
+            </label>
+            <input type="text" />
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>银行账户
+            </label>
+            <input type="text" />
+        </div>
+    </div>
+    
+</div>
+<div style="display:none">
+    <div id="add_address_content">
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>
+                收货人：
+            </label>
+            <div class="field_value">
+                <input type="text">
+            </div>
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>
+                所在地址：
+            </label>
+            <div class="field_value field_select">
+                <select name="" id="" class="fl">
+                    <option value="">中国</option>
+                </select>
+                <select name="" id="">
+                    <option value="">省</option>
+                </select>
+                <select name="" id="">
+                    <option value="">市</option>
+                </select>
+                <select name="" id="" class="fr">
+                    <option value="">区</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="entry">
+            <label for="" class="field_label">
+                &nbsp;       
+            </label>
+            <div class="field_value">
+                <input type="text">
+            </div>
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>手机
+            </label>
+            <div class="field_value tel">
+                <input type="text">
+                <label for="" class="field_label">
+                    或 固定电话:
+                </label>
+                <input type="text">
+            </div>
+        </div>
+        <div class="entry">
+            <label for="" class="field_label">
+                <span class="highlight">*</span>
+                电子邮箱：
+            </label>
+            <div class="field_value">
+                <input type="text">
+            </div>
+        </div>
+        
+    </div>
+</div> 
+</body>
+
+</html>
