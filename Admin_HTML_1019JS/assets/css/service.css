@@ -1,0 +1,48 @@
+
+.service-banner{height: 330px; background: url(../img/service/service_banner.jpg) center center no-repeat;}
+.service-option{background: #fff;padding: 20px; margin-top: 20px;}
+.service-option:after{content: "."; height: 0; clear: both; display: block; font-size: 0; visibility: hidden;}
+.service-option ul li{width:235px; height: 120px; font-size: 14px; text-align: center; color: #919191;float:left;cursor: pointer; text-align: center;padding-top: 102px; position: relative;}
+.service-option ul li:after{content:"";position: absolute; right: 0px; top: 12px; height: 90px; border-right: 1px #c7c7c7 solid;}
+.service-option ul li:last-child:after{border: none;}
+.service-option ul li:last-child{border: none;}
+.service-option ul li:hover{color: #af934d;}
+.service-option ul li.design{ background: url(../img/service/01.png) center center no-repeat;}
+.service-option ul li.design:hover{background: url(../img/service/07.png) center center no-repeat;}
+.service-option ul li.construction{ background: url(../img/service/02.png) center center no-repeat;}
+.service-option ul li.construction:hover{ background: url(../img/service/02-hover.png) center center no-repeat;}
+.service-option ul li.installation{ background: url(../img/service/03.png) center center no-repeat;}
+.service-option ul li.installation:hover{ background: url(../img/service/03-hover.png) center center no-repeat;}
+.service-option ul li.logistics{ background: url(../img/service/04.png) center center no-repeat;}
+.service-option ul li.logistics:hover{ background: url(../img/service/04-hover.png) center center no-repeat;}
+
+.service-option .btns{float: right; width: 213px;}
+.service-option .btns button{width:100%; height: 55px; line-height: 55px; border:none; background: #515663; color: #fff; font-size: 14px; }
+.service-option .btns button.sub{background: #999;}
+.service-option .btns button.one-key{margin-top: 10px;}
+.service-option .btns button:hover{background: #af934d;}
+
+.service-list{padding-bottom: 40px; border-bottom: 1px solid #ccc;}
+.service-list > div{height: 580px; background: #fff; margin-top: 20px;}
+.service-list .apply{width: 230px; height: 535px; float: left; position: relative;}
+.service-list .apply button{width: 190px; position: absolute; bottom: 20px; left: 20px; color: #fff; font-size: 14px; height: 40px; border: none; background: #577e9f;}
+.service-list .apply button:after{content:""; width: 15px; height: 10px; display: inline-block; background: url(../img/service/06.png) center center no-repeat;}
+.service-list .f1 .apply{background: url(../img/service/1f_bg.jpg) center center no-repeat; }
+.service-list .f1 .apply button:hover{background: #365d7f;}
+.service-list .f2 .apply{background: url(../img/service/2f_bg.jpg) center center no-repeat; }
+.service-list .f2 .apply button{background: #6a8853;}
+.service-list .f2 .apply button:hover{background: #4d6c35;}
+.service-list .f3 .apply{background: url(../img/service/3f_bg.jpg) center center no-repeat; }
+.service-list .f3 .apply button{background: #a17d40;}
+.service-list .f3 .apply button:hover{background: #8b6729;}
+
+.service-list .list{width: 970px; height: 535px; overflow: hidden; padding: 20px 10px 0px 10px; float: right;}
+.service-list .list li{width: 178px; margin-left: 10px; float: left;}
+.service-list .list li a{display: block; color: #333;}
+.service-list .list li a:hover{color: #af934d;}
+.service-list .list li img{width: 178px; height: 178px; border: 1px #e2e2e2 solid;}
+.service-list .list li .text{line-height: 1.7; padding:5px 0px 13px 0px;}
+.service-list .list li .text > span{display: block; white-space: nowrap; text-overflow:ellipsis; overflow: hidden;}
+
+.service-list .more{width: 100%; float: left; height: 50px; font-size: 14px; line-height: 1; color:#333; padding: 10px; border-top:10px #f1f1f1 solid; text-align: center;}
+.service-list .more:hover{color:#af934d;}

@@ -1,0 +1,84 @@
+.mt10{margin-top: 10px}
+.bold{font-weight: bold;}
+.container{
+    width: 1200px;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+.orderbreadcrumb{
+}
+.box{
+    padding:30px;
+    background-color: #fff;
+}
+.payitem{
+    width: 750px;
+    border-bottom: 1px solid #ddd;
+}
+.payitem .entry{
+    float: left;
+    padding-bottom: 20px;
+}
+.payitem .entry .dt{
+    width:80px;
+    font-size: 16px;
+    float: left;
+}
+.payitem .entry .dd{
+    width:200px;
+    float: left;
+    font-size: 16px;
+}
+.payswitch {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    width: 750px;
+}
+.payswitch .title{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+.payswitch button{
+    border:1px solid #ddd;
+    font-size: 18px;
+    width:220px;
+    height: 46px;
+    background-color: white;
+    margin-right: 10px;
+}
+.payswitch button.active{
+    position: relative;
+    border:1px solid  #515663;
+}
+.payswitch button.active i{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-image: url(../../img/admin/icon_center_xuanzhongkuang.png);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 21px;
+}
+.paylogos{
+    width: 750px;
+    padding-top: 30px;
+}
+.paylogos label{
+    line-height: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.paylogos label input{
+    vertical-align: middle;
+}
+.topay{
+    width: 280px;
+    height: 36px;
+    color: white;
+    border-radius: 2px;
+    border:none;
+    background-color: #515663;
+    display: block;
+    margin:160px auto 100px 246px;
+}

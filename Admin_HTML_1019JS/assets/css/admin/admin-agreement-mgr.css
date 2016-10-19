@@ -1,0 +1,166 @@
+.account_mgr_nav{
+    padding-right: 10px;
+    background-color:#fff;
+    height: 60px;
+}
+.account_mgr_nav a{
+    height: 60px;
+    display: block;
+    float: left;
+    line-height: 60px;
+    font-size: 16px;
+    width:120px;
+    text-align: center;
+    color:#333;
+}
+.account_mgr_nav a:hover,.account_mgr_nav a.active{
+    border-bottom:2px solid #b39a5a;
+    color: #b39a5a;
+}
+.account_mgr_nav .back{
+    float: right;
+    color:#888;
+    padding-left: 20px;
+    width: 130px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.account_mgr_nav .back:hover{
+    color: inherit;
+    border: none;
+}
+
+.search_box{
+    padding-bottom: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.search_box .field_label{
+    float: left;
+    width:80px;
+    height: 28px;
+    padding-left: 20px;
+    line-height: 28px;
+    margin-right: 10px;
+}
+.search_box .field_input{
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    border:1px solid #ddd;
+    text-indent: 10px;
+    outline: none;
+    width:320px
+}
+.search_box .field_input.field_date{
+    width:147px;
+    padding-right: 20px;
+    background-image: url(../../img/admin/icon_center_calendar.png);
+    background-repeat: no-repeat;
+    background-position: 125px center;
+}
+.search_box .dash{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 28px;
+    line-height: 28px;
+}
+.search_box .query_btn{
+    background-color: #525662;
+    color: white;
+    border-radius: 2px;
+    font-size: 16px;
+    border:none;
+    height: 28px;
+    float: right;
+    width: 100px;
+}
+.search_box .status button{
+    width: 110px;
+    height: 27px;
+    border:1px solid #ddd;
+    background-color: white;
+    outline: none;
+    color: #333;
+}
+.search_box .status button.active{
+    border:1px solid #525662;
+    background-image: url(../../img/admin/icon_center_xuanzhongkuang.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.tools{
+    padding-top: 10px;
+}
+.tools button{
+    height: 28px;
+    border:1px solid #ddd;
+    font-size: 14px;
+    outline: none;
+    background: white;
+    color: #666;
+    width: 100px;
+    margin-right: 10px;
+}
+
+#check_content{
+    width: 500px;
+}
+#check_content .entry{
+    font-size: 14px;
+    text-align: center;
+}
+#check_content .field_label{
+    width: 80px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#check_content textarea{
+    width: 380px;
+    height: 100px;
+    resize: none;
+    border:1px solid #ddd;
+
+}
+#view_content{
+    width: 500px;
+}
+#view_content .entry{
+    font-size: 14px;
+    text-align: center;
+}
+#view_content .field_label{
+    width: 80px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#view_content textarea{
+    width: 380px;
+    height: 100px;
+    resize: none;
+    border:none;
+    resize: none;
+}
+
+#off_content{
+    width: 500px;
+}
+#off_content .entry{
+    font-size: 14px;
+    text-align: center;
+}
+#off_content .field_label{
+    width: 80px;
+    line-height: 30px;
+    vertical-align: top;
+}
+#off_content textarea{
+    width: 380px;
+    height: 100px;
+    resize: none;
+    border:1px solid #ddd;
+
+}

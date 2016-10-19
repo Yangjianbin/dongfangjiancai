@@ -1,0 +1,106 @@
+.buyer_history_inquiry_breadcrumb{
+    padding-bottom: 10px;
+}
+.order_title{height: 55px;line-height:55px;font-size: 16px;font-weight: normal;background-color: #fff;padding-left: 20px;}
+.search_box{padding: 15px 20px; font-size: 14px; overflow: hidden;}
+.search_box .field{
+    float: left;
+    height: 30px;
+    margin:5px 0;
+    clear: both;
+}
+.search_box .field.query{
+    float: right;
+    color: white;
+    background-color: #515663;
+    border:none;
+    border-radius: 2px;
+    width: 100px;
+}
+.search_box .fname{
+    width: 50px;
+}
+.search_box .fvalue{
+    margin-right: 20px;
+    height: 30px;
+    text-indent: 10px;
+}
+.search_box input{
+    border:1px solid #ddd;
+}
+.search_box .fvalue.orderid,.search_box .fvalue.proname{
+    width: 320px;
+}
+.search_box .field.number button,.search_box .field.price_range button{
+    width: 110px;
+    margin-right: 10px;
+    background-color: #fff;
+    border:1px solid #ddd;
+    height: 30px;
+}
+.search_box .field.number button.active,.search_box .field.price_range button.active{
+    position: relative;
+    border:1px solid #515663;
+}
+
+.search_box .field.number button.active i,.search_box .field.price_range button.active i{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 21px;
+    height: 21px;
+    background-image: url(../../img/admin/icon_center_xuanzhongkuang.png);
+    background-repeat: no-repeat;
+}
+.search_box .field.price_range .recent{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.search_box .field.price_range .clear_form{
+    padding-left: 40px;
+}
+.search_box .field.price_range .query{
+    color: #fff;
+    border-radius: 2px;
+    background-color: #525662;
+    font-size: 16px;
+}
+.box{
+    padding: 20px;
+    background-color: #fff;
+}
+.box .table_title{
+    font-size: 14px;
+}
+.box .back_btn{
+    float: right;
+    font-size: 16px;
+    width:140px;
+    height: 34px;
+    border:none;
+    border-radius: 2px;
+    background-color:#525662;
+    color: white;
+    transform: translateY(-5px);
+    text-align: center;
+    line-height: 34px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/

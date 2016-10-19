@@ -1,0 +1,31 @@
+.mt10{margin-top: 10px}
+.bold{font-weight: bold;}
+.container{
+    width: 1200px;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+.orderbreadcrumb{
+    padding-bottom: 0px;
+}
+.box{
+    padding:20px;
+    padding-top: 100px;
+    background-color: #fff;
+    text-align: center;
+    height: 600px;
+}
+.box .msg{
+    font-size: 18px;
+    line-height: 40px;
+}
+.box .msg img{
+    margin-right: 10px;
+}
+.box .jifen{
+    font-size: 14px;
+    padding:20px 0 20px 0;
+}
+.box .link{
+    font-size: 12px;
+}

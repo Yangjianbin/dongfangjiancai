@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-category-mgr.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <div class="account_mgr_nav">
+            <a href="./CategoryManagement.html" class="active">
+			    分类管理
+			</a> <a href="./CategoryAdd.html">
+			    新增分类
+			</a></div>
+        <div class="module-box mt20">
+            <table class="table table-bordered category">
+                <tr>
+                    <th>分类名称</th>
+                    <th>操作</th>
+                </tr>
+                <tr data-id="1">
+                    <td><i class=""></i>装饰材料</td>
+                    <td><a href="javascript:;" class="add">新增下级</a><a href="javascript:;" class="edit">编辑</a><a href="javascript:;" class="delete">删除</a></td>
+                </tr>
+                <tr data-parent="1" data-id="22">
+                    <td class="second"><i class=""></i>石材</td>
+                    <td><a href="#">新增下级</a><a href="#">编辑</a><a href="#">删除</a></td>
+                </tr>
+                <tr data-parent="22" data-id="222">
+                    <td class="third">大理石</td>
+                    <td><a href="#">编辑</a><a href="#">删除</a></td>
+                </tr>
+                <tr data-id="2">
+                    <td><i class=""></i>安装材料</td>
+                    <td><a href="#">新增下级</a><a href="#">编辑</a><a href="#">删除</a></td>
+                </tr>
+                <tr data-id="3">
+                    <td><i class=""></i>建筑材料</td>
+                    <td><a href="#">新增下级</a><a href="#">编辑</a><a href="#">删除</a></td>
+                </tr>
+                <tr data-id="4">
+                    <td><i class=""></i>配套服务</td>
+                    <td><a href="#">新增下级</a><a href="#">编辑</a><a href="#">删除</a></td>
+                </tr>
+            </table>
+        </div>
+
+
+
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-category-mgr.js"></script>
+
+    <div style="display:none">
+    	<div id="add_content">
+    		<div class="entry">
+    			<label for="" class="field_label">分类名称：</label>
+    			<input type="text" class="field_value">
+    		</div>
+    		<div class="entry">
+    			<label for="" class="field_label">上级分类：</label>
+                <select name="" id="" class="field_value">
+                    <option value="">请选择</option>
+                </select>
+    		</div>
+    		<div class="entry">
+    			<label for="" class="field_label">选择类型：</label>
+                <select name="" id="" class="field_value">
+                    <option value="">请选择</option>
+                </select>
+    		</div>
+            <div class="entry">
+    			<label for="" class="field_label">图片：</label>
+                <div class="field_value upload">
+                    <input type="file" class="field_value">
+                    <button>确定上传</button>
+                </div>
+                <span class="tips">请上传16 * 16 尺寸的图片</span>
+
+    		</div>
+    		<div class="entry">
+    			<label for="" class="field_label">标题：</label>
+    			<input type="text" class="field_value">
+    		</div>
+    		<div class="entry">
+    			<label for="" class="field_label">关键词：</label>
+    			<input type="text" class="field_value">
+    		</div>
+            <div class="entry">
+    			<label for="" class="field_label">描述：</label>
+    			<input type="text" class="field_value">
+    		</div>
+
+    	</div>
+    </div>
+
+
+</body>
+
+</html>

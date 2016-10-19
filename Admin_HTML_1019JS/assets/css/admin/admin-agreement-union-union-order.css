@@ -1,0 +1,243 @@
+.mt10{margin-top: 10px}
+.bold{font-weight: bold;}
+.container{
+    width: 1200px;
+    padding: 10px 20px 20px 20px;
+    margin: auto;
+}
+.orderbreadcrumb{
+    padding-bottom: 10px;
+}
+.box{
+    padding:20px;
+    background-color: #fff;
+}
+.box2{
+    padding:30px 20px 30px 20px;
+    background-color: #fff;
+}
+.order_title{height: 35px;font-size: 16px;font-weight: normal;border-bottom: 1px solid #e3e3e3;}
+.progresss{
+    height: 200px;
+    padding-left: 170px;
+    padding-top: 60px;
+}
+.progress1{
+    margin-left: -74px;
+    font-size: 16px;
+}
+.progress1 li{
+    width: 196px;
+    height: 26px;
+    text-align: center;
+    float: left;
+}
+.progress1 li.done{
+    color:#af934d;
+}
+.progress2{
+}
+.progress2 li{
+    float: left;
+}
+.progress2 .dot{
+    background: url(../../img/admin/icon_center_step03.png) no-repeat;
+    width: 46px;
+    height: 46px;
+}
+.progress2 .dot.done{
+    background: url(../../img/admin/icon_center_step01.png) no-repeat;
+}
+.progress2 .dot.half{
+    background: url(../../img/admin/icon_center_step02.png) no-repeat;
+}
+.progress2 .line{
+    height: 10px;
+    width: 150px;
+    background-color: #efefef;
+    margin-top: 18px;
+}
+.progress2 .line.done{
+    background-color: #af934d;
+}
+.deliverway{
+    float: left;
+    border-right: 1px solid #ddd;
+    height: 315px;
+    width: 235px;
+}
+.deliverway p{
+    height: 28px;
+    line-height: 28px;
+}
+.deliverway p.title{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.4;
+    height: auto;
+}
+.deliverlist{
+    float: left;
+    padding-left: 80px;
+}
+.delivertitle{
+    font-size: 14px;
+}
+.delivertitle ul li{
+    float: left;
+    margin-right: 40px;
+    height: 28px;
+}
+.deliverlist .tablewrap{
+    height: 266px;
+    overflow-y: auto;
+        width: 780px;
+}
+.deliverlist .table{
+
+    border:1px solid #ddd;
+    height: 260px;
+    overflow: scroll;
+}
+.deliverlist .table td,.deliverlist .table th{
+    border:1px solid #ddd;
+    height: 44px;
+    font-size: 14px;
+    text-align: center;
+}
+.deliverlist .desc{
+    line-height: 30px;
+    font-size: 14px;
+}
+.htinfo {
+    border-right: 1px solid #ddd;
+    height: 216px;
+    float: left;
+    width: 235px;
+}
+.htinfo .title{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.htinfo i{
+    width: 31px;
+    height: 64px;
+    display: block;
+    float: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(../../img/admin/icon_center_xiexi.png) ;
+    margin-right: 10px;
+}
+.htinfo button{
+    float: left;
+    color: white;
+    width: 100px;
+    height: 30px;
+    background-color: #515663;
+    border:none;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+
+.shinfo {
+    border-right: 1px solid #ddd;
+    height: 216px;
+    float: left;
+    width: 435px;
+    padding:0 20px 0 20px;
+}
+.shinfo .title{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.shinfo .shentry{
+    margin-bottom: 20px;
+}
+.shentry .dt{
+    float: left;
+    width: 90px;
+}
+.shentry .dd{
+    float: left;
+    width: 300px;
+}
+.invoiceinfo {
+    border-right: 1px solid #ddd;
+    height: 216px;
+    float: left;
+    width: 257px;
+    padding:0 20px 0 20px;
+}
+.invoiceinfo .title{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.invoiceinfo .invoiceentry{
+    margin-bottom: 20px;
+}
+.invoiceentry .dt{
+    float: left;
+    width: 70px;
+}
+.invoiceentry .dd{
+    float: left;
+    width: 120px;
+}
+.payinfo {
+    height: 216px;
+    float: left;
+    width: 190px;
+    padding:0 20px 0 20px;
+}
+.payinfo .title{
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.payinfo .payentry{
+    margin-bottom: 20px;
+}
+.payentry .dt{
+    float: left;
+    width: 80px;
+}
+.payentry .dd{
+    float: left;
+    width: 70px;
+}
+.total{
+    margin-top: -10px;
+    margin-bottom: -10px;
+    font-size: 16px;
+    float: right;
+}
+.aftersale{
+
+}
+.aftersale ul{
+    padding-left: 100px;
+}
+.aftersale li {
+    padding-bottom: 30px;
+}
+.aftersale .entry{
+    width: 700px;
+    clear: both;
+}
+.aftersale .dt{
+    width: 65px;
+    float: left;
+}
+.aftersale .dd{
+    width: 600px;
+    float: left;
+}
+.aftersale .dd .time{
+    margin-left: 20px;
+    color: #ccc;
+}

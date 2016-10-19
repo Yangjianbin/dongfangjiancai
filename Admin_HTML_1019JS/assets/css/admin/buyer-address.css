@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0;}
+ul,li{list-style: none;}
+input{outline:0;}
+.content{width: 1030px;padding: 20px 0 0 20px;font-family: 'Microsoft YaHei';color: #333;}
+.box{
+    padding-bottom: 30px;
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.panel_title{height: 55px;line-height:55px;border-bottom: 1px solid #e3e3e3;font-size: 16px;font-weight: normal;}
+.panel_title span{
+    font-size: 12px;
+}
+.add_address{
+    width: 140px;
+    height: 40px;
+    color: white;
+    background: #af934d;
+    border:none;
+    font-size: 14px;
+    margin-right: 20px;
+}
+.box .item{
+    border:2px solid #e2e2e2;
+    padding:20px 20px 10px 20px;
+    position: relative;
+}
+.item_title{
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+}
+.item_title .default{
+    color: white;
+    font-size: 14px;
+    background: #af934d;
+    padding:2px 10px;
+    margin-left: 20px;
+}
+.item_tools{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+.item_tools a{
+    margin-left: 10px;
+}
+.item .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    width: 20px;
+    height: 18px;
+    background: url(../../img/admin/icon_center_close01.pn2.png)
+}
+.item .prop{
+    line-height: 34px;
+    display: block;
+}
+.item .prop .dt,.item .prop .dd{
+    float: left;
+}
+.item .prop .dt{
+    width: 60px;
+    text-align: right;
+}
+
+
+#edit-cont .item .extra-span { margin: 26px 5px 0; display: block; }
+#edit-cont .item select { width: 99px; margin-right: 10px; height: 30px; border: 1px solid #ccc;}
+#edit-cont .item a { color: #005ea6; }
+#edit-cont .item .check { vertical-align: -2px; _vertical-align: -1px; }
+#edit-cont .item .error-msg { color: #c00; display: none;}
+#edit-cont .btns { margin: 10px 0 0; }
+
+#edit-cont .item {width:100%; float: left; padding:10px 0px;}
+#edit-cont .item .text { height: 30px; line-height: 18px; padding: 6px; width: 324px; margin-right: 5px; vertical-align: middle; border: 1px solid #ccc; }
+#edit-cont .item input.narrow{width:120px;}
+#edit-cont .item .label { float: left; width:150px;  display: block; vertical-align: middle; color: #333; text-align: right; padding: 7px 0; font-weight: normal;}
+.label em{color: #af934d;}
+#edit-cont { padding: 20px; overflow: hidden;}
+#edit-cont .area { border: 1px solid #ccc; float: none; line-height: 18px; padding: 5px; margin-right: 8px; }

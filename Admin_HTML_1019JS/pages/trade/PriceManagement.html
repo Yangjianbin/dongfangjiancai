@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>价格库管理</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-inquiry-mgr.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div class="container">
+        <ul class="nav nav-tabs-custom clearfix" id="ulMenu">
+            <li class="active">价格库管理</li>
+        </ul>
+        <div class="search-box price" id="search-box">
+            <form role="form">
+                <div class="search-field">
+                    <label for="company-name">企业名称：</label>
+                    <input class="form-control input-ssm company" type="text" id="company-name" placeholder="请输入录入报价的企业名称">
+                    <label for="brand-name">品牌：</label>
+                    <input class="form-control input-ssm brand" type="text" id="brand-name" placeholder="请输入品牌">
+                    <label for="product-name">材料名称：</label>
+                    <input class="form-control input-ssm product" type="text" id="product-name" placeholder="请输入材料名称">
+                    <label for="inputStartDate">注册日期：</label>
+                    <input id="inputStartDate" class="form-control input-ssm date start_datetime" type="text">
+                    <label for="inputEndDate">至</label>
+                    <input id="inputEndDate" class="form-control input-ssm date end_datetime" type="text">
+                </div>
+                <div class="submit">
+                    <button type="button" class="btn btn-warning btn-ssm" id="searchButton">搜索</button>
+                    <input type="hidden" id="hidStatus" value="0" />
+                </div>
+            </form>
+        </div>
+        <div class="box">
+            <div class="btns">
+                <button type="button" class="btn btn-warning btn-ssm" id="add-quotation">添加报价</button>
+                <button type="button" class="btn btn-warning btn-ssm" id="import-xls">批量导入</button>
+            </div>
+            <table id="list" class="table price-table"></table>
+            <div class="tabel-operate" id="batchOperate" data-type="jsonp"></div>
+        </div>
+        <iframe name="price-iframe" id="price-iframe"></iframe>
+    </div>
+    <script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-price-management.js"></script>
+</body>
+
+</html>

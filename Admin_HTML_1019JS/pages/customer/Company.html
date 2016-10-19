@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-stand">
+    <meta name="viewport" content="width=device-width">
+    <title>平台管理中心</title>
+    <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+	<link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
+	<link href="../../assets/css/admin/admin-company.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="../../assets/js/admin/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="container">
+		<div class="account_mgr_nav"> <a class="active" href="./Company.html">
+			   采购商
+		   </a> <a href="./CompanySupply.html">
+			   供应商
+		   </a> <a href="./CompanySupply.html">
+			   配套服务商</a>
+		    </div>
+
+
+		<div class="search_box">
+			<div class="clearfix">
+				<label for="" class="field_label">客户:</label>
+				<input type="text" class="field_input">
+				<label for="" class="field_label">状态:</label>
+				<select name="" id="" class="field_input">
+					<option value="">111</option>
+				</select>
+			</div>
+			<div class="clearfix">
+				<label for="" class="field_label">注册日期:</label>
+					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<button class="query_btn">
+					查询
+				</button>
+			</div>
+		</div>
+        <div class="module-box">
+			<div class="tools">
+				<button id="contact">企业常用联系人</button>
+				<button id="bank">开户行信息</button>
+				<a href="./PurchaseCheck.html">审核</a>
+				<a href="./PurchaseView.html">查看</a>
+			</div>
+        </div>
+
+
+	</div>
+	<script src="../../assets/js/jquery-1.12.0.min.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+	<script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+	<script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/CommonJS.js"></script>
+    <script src="../../assets/js/admin/admin-company.js"></script>
+
+<div style="display:none">
+	<div id="contact_content">
+		<div class="entry">
+			<label for="" class="field_label">联系人姓名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">联系人邮箱：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">联系手机：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">固定电话：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">传真：</label>
+			<input type="text" class="field_value">
+		</div>
+	</div>
+</div>
+<div style="display:none">
+	<div id="bank_content">
+		<div class="entry">
+			<label for="" class="field_label">账户名：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">开户银行：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">支行名称：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="entry">
+			<label for="" class="field_label">开户行账户：</label>
+			<input type="text" class="field_value">
+		</div>
+		<div class="warn highlight clearfix">请输入完整的信息，以便我们能及时为您提供更好的服务!</div>
+	</div>
+</div>
+</body>
+</html>

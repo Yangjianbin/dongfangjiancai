@@ -1,0 +1,111 @@
+.mgrcat_title{
+    height: 55px;
+    line-height:55px;
+    font-size: 16px;
+    font-weight: normal;
+    background-color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mgrcat_title .back{
+    color: #888;
+    float: right;
+    padding-left: 30px;
+    background-image: url(../../img/admin/icon_center_return.png);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.photo{
+    height: 600px;
+}
+.catlist{
+
+}
+.catlist table th{
+    text-align: center;
+}
+.catlist table th:nth-child(n+2){
+    width: 100px;
+}
+.catlist table td:nth-child(n+2){
+    text-align: center;
+}
+.catlist #add_cat{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-image: url(../../img/admin/icon_center_plustransparent-.png);
+    background-position: left center;
+}
+.catlist .save{
+    height: 34px;
+    width: 280px;
+    border-radius: 2px;
+    color: white;
+    font-size: 16px;
+    display: block;
+    outline: none;
+    border:none;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #525662;
+}
+
+#add_cat_content{
+    font-size: 14px;
+    width:700px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#add_cat_content .entry{
+    padding: 10px 0px;
+    clear: both;
+    line-height: 34px;
+}
+#add_cat_content .field_label{
+    text-align: right;
+    width:100px;
+    height:32px;
+    line-height: 32px;
+    float: left;
+}
+#add_cat_content .field_value{
+    float: left;
+    width: 450px;
+    text-align: left;
+    line-height: 30px;
+}
+#add_cat_content .field_value input[type="checkbox"]{
+    vertical-align: middle;
+}
+#add_cat_content .field_value select{
+    width:220px;
+    height: 32px;
+    line-height: 32px;
+    border:1px solid #ddd;
+    display: inline-block;
+    text-indent: 10px;
+}
+#add_cat_content .field_value.min{
+    width: 150px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
