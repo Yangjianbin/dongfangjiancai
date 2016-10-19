@@ -28,18 +28,18 @@
         <div class="search_box mt20">
 			<div class="clearfix">
 				<label for="" class="field_label">分类文章:</label>
-				<input type="text" class="field_input">
+				<input type="text" class="field_input" name="firstCat">
 				<label for="" class="field_label">二级分类:</label>
-                <select name="" class="field_input" id="">
+                <select name="secondCat" class="field_input" id="">
                     <option value="">1111</option>
                 </select>
 			</div>
 			<div class="clearfix">
 				<label for="" class="field_label">发布日期:</label>
-				<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+				<input type="text" name="publishDateStart" class="field_input field_date"> <span class="fl dash">-</span> <input name="publishDateEnd" type="text" class="field_input field_date">
                 <label for="" class="field_label">标题:</label>
 				<input type="text" class="field_input">
-				<button class="query_btn">
+				<button class="query_btn" onclick="query()">
 					查询
 				</button>
 			</div>
@@ -51,6 +51,9 @@
            <a href="./ArticleEdit.html">
            <button id="view">编辑</button>
            </a>
+
+        <table id="table" class="table"></table>
+        <div class="tabel-operate" id="batchOperate"></div>
        </div>
 
     </div>
@@ -60,6 +63,7 @@
     <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
     <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
     <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.datagrid.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
     <script src="../../assets/js/admin/admin-article-mgr.js"></script>
