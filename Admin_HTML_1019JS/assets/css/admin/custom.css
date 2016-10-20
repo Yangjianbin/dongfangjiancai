@@ -21,7 +21,7 @@ a:focus, a:hover{ color: #b39a5a; text-decoration:none; }
 
 .navbar{ border:0; min-height:0;}
 .navbar-custom .navbar-collapse{ width:100%;}
-.navbar-custom{ background:#515663; margin: 0;}
+.navbar-custom{ background:#404652; margin: 0;}
 .navbar-custom a{transition:all linear .2s}
 .navbar-custom .navbar-nav>.active>a,.navbar-custom .navbar-nav>.active>a:hover,.navbar-custom .navbar-nav>.active>a:focus{color:#fff;  background-color: #646a76;}
 .navbar-custom .navbar-nav>.active a:before{ position:absolute; content:'';  display: inline-block;border-left: 8px solid transparent;border-right: 8px solid transparent;border-bottom: 8px solid #f4f4f4;position: absolute;bottom: 0;left: 50%; margin-left:-8px;transition:all linear .2s}
@@ -29,7 +29,7 @@ a:focus, a:hover{ color: #b39a5a; text-decoration:none; }
 
 .navbar-custom .navbar-nav>.open>a,.navbar-custom .navbar-nav>.open>a:hover,.navbar-custom .navbar-nav>.open>a:focus{color:#fff; background-color:#646a76;}
 .navbar-custom .nav>li>a:hover,.navbar-custom .nav>li>a:focus {text-decoration: none; color:#fff; background-color:#646a76;}
-.navbar-custom .navbar-nav>li>a{ padding:20px; color:#fff}
+.navbar-custom .navbar-nav>li>a{ padding:20px 30px; color:#fff}
 .navbar .logo{ font-size: 20px; color: #fff; height:30px; line-height: 30px; padding:0px 30px 0px 42px; display:block; background:url(../../img/logo_admin_white.png) no-repeat 0 center; margin-top:10px;}
 .navbar-nav{ font-size:16px}
 .dropdown-menu{ min-width:80px; font-size:12px;border-radius:0; top:59px; left:50%;}
@@ -46,7 +46,7 @@ a:focus, a:hover{ color: #b39a5a; text-decoration:none; }
 
 .navbar-collapse .switch{float: right; font-size: 16px; color: #ddd; padding: 20px 0px; line-height: 20px;}
 .navbar-collapse .switch:hover{color:#fff;}
-.navbar-collapse .menu{float: right; margin-top: 30px;}
+.navbar-collapse .menu{float: right; margin-top: 23px;}
 .navbar-collapse .menu li{list-style: none; float: left; font-size: 12px; color: #fff; margin-left: 10px;}
 .navbar-collapse .menu li a{color:#fff;}
 
@@ -54,15 +54,27 @@ a:focus, a:hover{ color: #b39a5a; text-decoration:none; }
 /*右侧导航---------*/
 .aside{ position:relative; float:left; background: #fff; width:170px; font-size:12px; z-index:2;}
 @media(max-width:1200px){.aside{ background-color:#fff;}}
+.aside .aside_title{
+	padding-top: 20px;
+	background-color: #f1f1f1;
+}
+.aside .aside_title>div{
+	background-color: #404652;
+	font-size: 18px;
+	font-weight: bold;
+	color: white;
+	padding: 18px;
+	text-align: center;
+}
 .aside ul{ list-style:none; padding:20px 0 0; background: #f1f1f1;}
 .aside li{position:relative; background: #fff;}
 .aside li.lg-li{ font-size:16px; color:#000; padding-left:50px}
-.aside li a{ display:block; color:#2b2f33; text-indent:40px; font-size: 15px; padding:10px 0px; position: relative;}
+.aside li a{ display:block; color:#888; text-align: center;font-size: 15px; padding:19px 0px; position: relative;}
 .aside li a:hover{ color:#b39a5a; text-decoration:none;}
-.aside li.current a{background:#515663; color:#fff;  padding:15px 0px; font-weight: bold;}
-.aside li.current a:after{content: ""; height: 7px; width: 5px; position: absolute; border:7px solid transparent; border-left-color:#515663; top: 18px; right: -14px; }
-.aside li.current a:hover{background:#404651}
-.aside li.current a:hover:after{border-left-color:#404651;}
+.aside li.current a{background:#af924c; color:#fff;  padding:19px 0px; font-weight: bold;}
+.aside li.current a:after{content: ""; height: 7px; width: 5px; position: absolute; border:7px solid transparent; border-left-color:#af924c; top: 22px; right: -14px; }
+.aside li.current a:hover{background:#af924c}
+.aside li.current a:hover:after{border-left-color:#af924c;}
 .aside li .glyphicon{position: absolute;color: #ddd;top: 10px;left: 20px;font-size: 18px;}
 
 .btn-change-link{ width:140px; margin:20px; border: 1px solid #ddd; display:block; background: #f4f4f4; color:#b39a5a; line-height:40px; text-align:center; font-size:18px;}
@@ -195,7 +207,7 @@ ul, ol {
     left: 5px;
     box-shadow: none;
 }
-.top-bar .quick_list .dropdown-menu:before, 
+.top-bar .quick_list .dropdown-menu:before,
 .top-bar .quick_list .dropdown-menu:after {display: none;}
 
 .top-bar .quick_list .dropdown-menu li {
@@ -203,11 +215,11 @@ ul, ol {
     line-height: 22px;
     height: 22px;
 }
-.top-bar .service, 
-.top-bar .mycenter, 
+.top-bar .service,
+.top-bar .mycenter,
 .top-bar .sitemap {width: 60px;z-index: 12;}
 .top-bar .in-order { width: 48px; z-index: 12;}
-.top-bar .in-order .outline, 
+.top-bar .in-order .outline,
 .top-bar .in-order .blank {width: 61px;}
 .top-bar .in-order .dropdown-menu {width: 100px;}
 .top-bar .mycenter .dropdown-menu { width: 90px;}

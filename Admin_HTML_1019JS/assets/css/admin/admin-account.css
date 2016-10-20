@@ -1,6 +1,6 @@
 .title{
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     font-size: 16px;
 }
 .search_box{
@@ -26,11 +26,11 @@
     width:320px
 }
 .search_box .field_input.field_date{
-    width:150px;
+    width:147px;
     padding-right: 20px;
     background-image: url(../../img/admin/icon_center_calendar.png);
     background-repeat: no-repeat;
-    background-position: 125px center;
+    background-position: 124px center;
 }
 .search_box .dash{
     padding-left: 10px;

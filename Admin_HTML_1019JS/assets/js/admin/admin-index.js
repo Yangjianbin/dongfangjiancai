@@ -3,8 +3,8 @@ $(function() {
       $.dialog({
           title:'修改密码',
           lock:true,
-          ok:function(){},
           cancel:function(){},
+          ok:function(){},
           content:document.getElementById('update_pwd_content')
       })
   });

@@ -1,6 +1,6 @@
 #update_pwd_content{
     font-size: 14px;
-    width:500px;
+    width:480px;
 }
 #update_pwd_content .entry{
     padding: 10px 0px;
@@ -8,16 +8,17 @@
     text-align: center;
 }
 #update_pwd_content .field_label{
+    color:#333;
     text-align: right;
     width:70px;
-    height:32px;
-    line-height: 32px;
+    height:34px;
+    line-height: 34px;
     display: inline-block;
 }
 #update_pwd_content .field_value{
     width:270px;
-    height: 32px;
-    line-height: 32px;
+    height: 34px;
+    line-height: 34px;
     border:1px solid #ddd;
 display: inline-block;
     text-indent: 10px;
@@ -26,4 +27,7 @@ display: inline-block;
     clear: both;
     color:#af924c;
     text-align: center;
+}
+input[readonly]{
+    background-color: #ccc;
 }

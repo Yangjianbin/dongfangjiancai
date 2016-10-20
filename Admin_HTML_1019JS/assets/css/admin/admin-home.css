@@ -1,8 +1,10 @@
 .admin {
     padding: 0px;
+    background-color: transparent;
 }
 .admin_panel{
     width: 49%;
+    background-color: #fff;
 }
 .admin_panel .title{
     font-size: 20px;
@@ -35,6 +37,9 @@
 }
 .admin_panel .links a:hover{
     color:#b39a5a;
+}
+#list td{
+    height: 55px;
 }
 
 

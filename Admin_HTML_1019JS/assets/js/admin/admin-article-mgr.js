@@ -48,11 +48,12 @@ function query() {
         pageNumber: 1,
         queryParams: { },
         columns:[[
-            { field: "inquirySheetCode", title: "询价编号", width: 80, align: "center" },
-            { field: "title", title: "工程名称", width: 80, align: "center" },
-            { field: "publishDate", title: "提交日期", width: 80, align: "center" },
-            { field: "quotationEndDate", title: "询价截止日期", width: 80, align: "center" },
-            { field: "stateStr", title: "状态", width: 80, align: "center"},
+            { checkbox: true, width: 39 ,title:'选择'},
+            { field: "title", title: "标题", width: 80, align: "center" },
+            { field: "category", title: "分类", width: 80, align: "center" },
+            { field: "publishDate", title: "是否显示", width: 80, align: "center" },
+            { field: "publishDate", title: "发布日期", width: 80, align: "center" },
+            { field: "status", title: "状态", width: 80, align: "center"},
             { field: "operation", operation: true, title: "操作", width: 80,
             	formatter: function (value, row, index) {
 	                var code = row.inquirySheetCode.toString();

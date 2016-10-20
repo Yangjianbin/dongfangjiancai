@@ -5,9 +5,9 @@ input[type="radio"], input[type="checkbox"] { margin: 2px 0 0; line-height: norm
 .btn { outline: 0 !important; transition: all linear .2s; border-radius: 0 }
 .table { margin: 0; background-color:#fff; }
 .table#list,.table.category_table,.table#applyList,.table#HandSlideDatagrid{ margin-top:16px;}
-.table>thead>tr>th, .table>tbody>tr>td {vertical-align: middle;  border: 1px solid #ccc!important;}
+.table>thead>tr>th, .table>tbody>tr>td {vertical-align: middle;  border: 1px solid #ccc!important;text-align: center;}
 .table>tbody>tr:nth-child(2n+1){ background-color:#fff;}
-.table thead tr th{ background-color:#f1f1f1; border:0; height:40px;}
+.table thead tr th{ background-color:#f1f1f1; border:0; height:48px;}
 .table img { margin-right: 5px; max-width:700px; }
 .input-sm, .form-control { border-radius: 0; margin-right: 5px; }
 p,dl,h3 { margin: 0 }
@@ -116,7 +116,7 @@ h3.heading{background:#e6e6e6; font-size:14px; font-weight:normal; color:#282c31
 
 .table-box{padding:18px; background:#fff; width:100%; float:left;}
 .table-box ul.thead{width:100%; float:left;background:#e6e6e6;color:#333;height:38px;margin-bottom:15px;}
-.table-box ul.thead>li{float:left;height:38px; line-height:38px; width:170px; text-align:center;} 
+.table-box ul.thead>li{float:left;height:38px; line-height:38px; width:170px; text-align:center;}
 .table-box ul.thead > li:nth-child(1) {width: 320px;}
 .table-box ul.thead > li:nth-child(2) {width: 250px;}
 .table-box ul.thead > li:nth-child(3) {width: 220px;}
@@ -577,7 +577,7 @@ label.label-custom input { margin-right: 5px }
 .module-box .steps ul{display: inline-table; margin-left: 30px; width: 855px; border-bottom: 1px #999 solid; padding:0px 0px 5px 30px; position: relative;}
 .module-box .steps ul:before{content:""; position: absolute; left: 5px; bottom:-6px; height: 11px; border-left: 1px #999 solid; display: block;}
 .module-box .steps ul:after{content:""; position: absolute; right: 2px; bottom:-2px; height: 9px; display: block; border-right: 1px #999 solid; transform:rotate(-45deg); }
-.module-box .steps ul li{display: table-cell;}
+.module-box .steps ul li{    float: left;width: 104px;}
 .module-box .steps ul li:first-child:before{ content: ""; width:7px; height: 7px; position: absolute; left: 6px; bottom:-4px; display: block; border-radius: 50%; background: #999;}
 
 
