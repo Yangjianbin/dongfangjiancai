@@ -31,7 +31,7 @@
     border: none;
 }
 
-.search_box{
+/*.search_box{
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 14px;
@@ -81,7 +81,7 @@
     height: 27px;
     border:1px solid #ddd;
     background-color: white;
-    outline: none;    
+    outline: none;
     color: #333;
 }
 .search_box .status button.active{
@@ -89,10 +89,10 @@
     background-image: url(../../img/admin/icon_center_xuanzhongkuang.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-}
+}*/
 
 
-.tools{
+/*.tools{
     padding-top: 10px;
 }
 .tools button{
@@ -104,7 +104,7 @@
     color: #666;
     width: 100px;
     margin-right: 10px;
-}
+}*/
 
 #check_content{
     width: 500px;

@@ -65,6 +65,12 @@
 }
 .field_value .uploadintro{
     color: #aaa;
+    line-height: 1.42;
+    width: 530px;
+    padding-bottom: 20px;
+}
+.field_value #desc{
+    padding-bottom: 30px;
 }
 .field_entry.form_btn button{
     margin-top: 20px;
@@ -78,6 +84,7 @@
 }
 .field_entry.form_btn .submit{
     background-color: #515663;
+    margin-left: 20px;
 }
 .field_entry.form_btn  .cancel{
     border:1px solid #515663;
@@ -85,9 +92,7 @@
     background-color: white;
 }
 .tips{
-    padding-top: 20px;
+    padding-top: 10px;
     margin-left: 90px;
     color:#b39a5a;
 }
-
-

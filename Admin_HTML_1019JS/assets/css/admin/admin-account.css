@@ -61,10 +61,11 @@
     color: #666;
     width: 100px;
     margin-right: 10px;
+    float: left;
 }
 
 #add_account_content{
-    font-size: 14px;
+    font-size: 12px;
     width:500px;
 }
 #add_account_content .entry{

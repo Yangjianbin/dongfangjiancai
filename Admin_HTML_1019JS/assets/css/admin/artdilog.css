@@ -63,3 +63,7 @@ button.aui_state_highlight:hover,button.aui_state_highlight:active {color: #fff;
     border-radius: 2px;
     border-color: #525662;
 }
+.aui_title{
+    font-weight: normal;
+    border-bottom: 1px solid #ddd;
+}

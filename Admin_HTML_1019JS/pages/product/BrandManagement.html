@@ -19,7 +19,7 @@
 
 <body>
     <div class="container">
-        <div class="account_mgr_nav"> 
+        <div class="account_mgr_nav">
             <a href="./BrandManagement.html" class="active">
 			    品牌管理
 			</a> <a href="./BrandAdd.html">
@@ -28,13 +28,13 @@
         <div class="search_box mt20">
 			<div class="clearfix">
 				<label for="" class="field_label">商品:</label>
-				<input type="text" class="field_input">
+				<input type="text" class="field_input" placeholder="品牌名称">
 				<label for="" class="field_label">企业名称:</label>
-				<input type="text" class="field_input">
+				<input type="text" class="field_input" placeholder="企业名称">
 			</div>
 			<div class="clearfix">
 				<label for="" class="field_label">发布日期:</label>
-					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
+					<input type="text" class="field_input field_date" placeholder="请选择"> <span class="fl dash">-</span> <input placeholder="请选择" type="text" class="field_input field_date">
 				<button class="query_btn">
 					查询
 				</button>
@@ -47,13 +47,13 @@
                 <button>审核通过(1)</button>
 			</div>
 		</div>
-       
+
        <div class="tools module-box">
            <button id="delete">删除</button>
-           <button id="view">查看</button>
+           <button id="view">查看原因</button>
            <a href="./BrandCheck.html"><button id="check">审核</button></a>
        </div>
-        
+
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
@@ -74,7 +74,7 @@
             </div>
         </div>
     </div>
-    
+
     <div style="display:none">
         <div id="view_content">
             <div class="entry">
@@ -85,8 +85,8 @@
             </div>
         </div>
     </div>
-    
-    
+
+
 </body>
 
 </html>

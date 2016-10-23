@@ -1,5 +1,5 @@
 $(function(){
-   
+
     $('#add_invoice').click(function(){
         $.dialog({
             title:'新增发票信息',
@@ -16,7 +16,13 @@ $(function(){
             cancel:function(){},
             content:document.getElementById('add_address_content'),
             lock:true
-            
+
         })
     });
+    $('.invoicebtn button').click(function(){
+        if(!$(this).is('.active')){
+            $(this).addClass('active');
+            $(this).siblings('button').removeClass('active')
+        }
+    })
 })

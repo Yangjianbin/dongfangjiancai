@@ -1,7 +1,10 @@
 $(function(){
     $('.status button').click(function(){
         !$(this).is('.active') && $(this).addClass('active').siblings('button').removeClass('active')
-    })
+    });
+
+    $('.field_date').datetimepicker();
+
     $('#delete').click(function(){
         $.dialog({
             title:'温馨提示',

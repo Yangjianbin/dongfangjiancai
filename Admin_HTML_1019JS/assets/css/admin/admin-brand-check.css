@@ -46,6 +46,9 @@
     font-size: 12px;
     padding-left: 15px;
 }
+.entry .field_value.field_image{
+    padding-bottom: 20px;
+}
 
 
 .entry .field_value.action button{

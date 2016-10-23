@@ -1,8 +1,10 @@
 $(function(){
     $('.status button').click(function(){
         !$(this).is('.active') && $(this).addClass('active').siblings('button').removeClass('active')
-    })
-    
+    });
+
+    $('.field_date').datetimepicker();
+
     $('#check').click(function(){
         $.dialog({
             title:'商品审核',
@@ -34,7 +36,7 @@ $(function(){
             content:document.getElementById('view_content')
         })
     });
-    
+
     $('#off').click(function(){
         $.dialog({
             title:'违规下架',

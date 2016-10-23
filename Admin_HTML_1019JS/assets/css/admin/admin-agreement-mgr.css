@@ -32,7 +32,7 @@
 }
 
 .search_box{
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-right: 20px;
     font-size: 14px;
 }
@@ -43,6 +43,7 @@
     padding-left: 20px;
     line-height: 28px;
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .search_box .field_input{
     float: left;
@@ -58,7 +59,7 @@
     padding-right: 20px;
     background-image: url(../../img/admin/icon_center_calendar.png);
     background-repeat: no-repeat;
-    background-position: 125px center;
+    background-position: 121px center;
 }
 .search_box .dash{
     padding-left: 10px;
@@ -83,6 +84,8 @@
     background-color: white;
     outline: none;
     color: #333;
+    margin-right: 10px;
+    float: left;
 }
 .search_box .status button.active{
     border:1px solid #525662;

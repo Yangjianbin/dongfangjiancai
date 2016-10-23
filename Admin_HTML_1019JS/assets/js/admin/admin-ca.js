@@ -11,7 +11,7 @@ $(function(){
         $.dialog({
             title:'企业认证',
             lock:true,
-            content:document.getElementById('private_ca_content')
+            content:document.getElementById('company_ca_content')
         })
     });
     $('#ca').click(function () {
@@ -23,7 +23,7 @@ $(function(){
             cancel:function(){},
             ok:function(){},
             okVal:'复制证书编号',
-            content:'<p style="text-align:center;font-size:14px;">恭喜你!您的CA申请已通过<br />证书编号：<span class="highlight">KKKKKKKKKKKKKK</span></p>'
+            content:'<p style="text-align:center;font-size:14px;line-height:2;">恭喜你!您的CA申请已通过<br />证书编号：<span class="highlight">KKKKKKKKKKKKKK</span></p>'
         })
     });
 })

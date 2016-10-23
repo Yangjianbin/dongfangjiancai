@@ -32,7 +32,7 @@
 }
 
 .entry{
-    font-size: 14px;
+    font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -68,6 +68,7 @@
     z-index: 10;
     cursor: pointer;
     outline: none;
+    line-height: 28px;
 }
 .entry .upload_wrap label{
     position: absolute;
@@ -85,17 +86,17 @@
     padding-left: 15px;
 }
 .entry .type{
-    
+
 }
 .entry .type ul li{
     color: #ddd;
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     float: left;
     margin-right: 4px;
     cursor: pointer;
     text-align: center;
-    line-height: 25px;
+    line-height: 20px;
 }
 .entry .type ul li.active{
     color:#b39a5a;
@@ -108,14 +109,11 @@
 }
 .entry .type ul li.current:after{
     content: '';
-    width:15px;
-    height: 15px;
-    background-image: url(../../img/admin/icon_center_xuanzhong03.png);
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-size: cover;
+    border-top: 5px solid #b39a5a;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
     position: absolute;
-    bottom: -7px;
+    bottom: -4px;
     left: 5px;
     z-index: 1;
 }
@@ -136,16 +134,19 @@
     padding-left: 10px;
     padding-right: 10px;
     font-size: 12px;
+    float: left;
+    padding-top: 5px;
 }
 .entry .type .type_items .item input[type=checkbox]{
     vertical-align:text-top;
-    margin-top:0;
+    margin-top:2;
+    margin-right: 5px;
 }
 .entry .type .type_selected{
     background-color: #f1f1f1;
     font-size: 12px;
     color:#b39a5a;
-    padding:10px;
+    padding:8px;
     line-height:8px;
     border-bottom: 1px  solid #ddd;
     border-left: 1px solid #ddd;
@@ -165,7 +166,7 @@
 }
 .entry .field_value.action button{
     border-radius: 2px;
-    height: 32px;
+    height: 36px;
     border:1px solid #4f5563;
     width: 150px;
     color: #4f5563;
@@ -179,13 +180,3 @@
     color: white;
     background-color: #4f5563;
 }
-
-
-
-
-
-
-
-
-
-
