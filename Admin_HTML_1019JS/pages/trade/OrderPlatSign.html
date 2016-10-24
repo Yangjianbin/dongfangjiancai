@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +11,7 @@
     <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
     <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
-    <link href="../../assets/css/admin/admin-purchase-mgr.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-agreement-view.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
@@ -21,37 +20,15 @@
 <body>
     <div class="container">
         <div class="nav_title">
-			采购管理
+            平台签约
+            <a class="back" href="./OrderManagement.html">返回订单管理</a>
         </div>
-
-        <div class="search_box mt20">
-			<div class="clearfix">
-				<label for="" class="field_label">用户:</label>
-				<input type="text" class="field_input">
-			</div>
-			<div class="clearfix">
-				<label for="" class="field_label">提交日期:</label>
-					<input type="text" class="field_input field_date"> <span class="fl dash">-</span> <input type="text" class="field_input field_date">
-				<button class="query_btn ">
-					查询
-				</button>
-			</div>
-			<div class="clearfix status">
-				<label for="" class="field_label">询价状态:</label>
-				<button class="active">全部</button>
-                <button>待审核(0)</button>
-                <button>待报价(1)</button>
-                <button>询价结束(0)</button>
-			</div>
-		</div>
-
-       <div class="tools module-box">
-        <a href="./PurchaseCheck.html"><button>审核</button></a>
-        <a href="./PurchaseView.html"><button>查看采购单</button></a>
-        <a href="./PurchaseReport.html"><button>报价</button></a>
-        <a href="./PurchaseReportView.html"><button>查看报价</button></a>
-
-       </div>
+        <div style="padding-left:20px;font-size:14px;padding-top:20px;">
+            <span class="highlight">合同已添加附加条款，请注意确认！</span>
+        </div>
+        <div class="module-box mt20">
+            <img style="width:700px;height:600px;display:block;margin:auto;" src="" alt="">
+        </div>
 
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
@@ -62,9 +39,7 @@
     <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
-    <script src="../../assets/js/admin/admin-purchase-mgr.js"></script>
-
-
+    <script src="../../assets/js/admin/admin-agreement-view.js"></script>
 
 </body>
 

@@ -1,4 +1,5 @@
 $(function(){
+    $('.field_date').datetimepicker();
     $('.status button').click(function(){
         !$(this).is('.active') && $(this).addClass('active').siblings('button').removeClass('active')
     });
