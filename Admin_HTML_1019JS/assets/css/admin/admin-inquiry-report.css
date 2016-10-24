@@ -16,6 +16,7 @@
     background-repeat: no-repeat;
 }
 .view_title{
+    font-size: 14px;
     border-bottom: 1px solid #ddd;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -62,10 +63,12 @@ table td:nth-child(6) input{
     text-indent: 10px;
 }
 .inquiry_info{
-
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
 }
 .inquiry_info li{
-    width: 50%;
+    width: 380px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
@@ -124,4 +127,12 @@ table td:nth-child(6) input{
     margin-left: 380px;
     border: none;
     outline: none;
+}
+#table {
+    font-size: 14px;
+}
+#table th{
+    background-color: #f1f1f1;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }

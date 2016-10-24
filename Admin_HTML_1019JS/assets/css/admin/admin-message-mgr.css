@@ -63,20 +63,20 @@
     margin-bottom: 15px;
 }
 .field_list li>label{
-    line-height: 30px;
+    line-height: 34px;
 }
 .field_list .field_name{
     width:110px;
     text-align: right;
     float: left;
-        padding-right: 5px;
+    padding-right: 5px;
 }
 .field_list input[type="text"]{
     width: 300px;
     padding-left: 10px;
 }
 .field_list .field_value{
-    height: 30px;
+    height: 34px;
     float: left;
     border:1px solid #ccc;
 }
@@ -124,12 +124,13 @@
     color: #f5f5f5;
     border-radius: 3px;
     border:none;
-    margin-bottom: 20px;
+    margin-bottom:12px;
+    margin-top: 5px;
 }
 
 .test{
     width: 120px;
-    height: 30px;
+    height: 34px;
     line-height: 28px;
     background: #4f5562;
     text-decoration: none;

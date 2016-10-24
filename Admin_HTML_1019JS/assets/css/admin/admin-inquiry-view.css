@@ -19,17 +19,34 @@
     border-bottom: 1px solid #ddd;
     padding-top: 15px;
     padding-bottom: 15px;
+    font-size: 14px;
 }
 .view_title span{
     padding-left: 50px;
 }
 .inquiry_info{
-    
+    padding-top: 10px;
+    padding-bottom: 0px;
+    margin-bottom: -5px;
 }
 .inquiry_info li{
-    width: 50%;
+    width: 380px;
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 14px;
     float: left;
+}
+#table th,#table td{
+    text-align: center;
+    font-size: 14px;   
+}
+#table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f1f1f1;
+}
+#table td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #fefcfd;
 }

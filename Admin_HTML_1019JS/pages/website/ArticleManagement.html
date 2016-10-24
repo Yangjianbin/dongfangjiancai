@@ -28,17 +28,17 @@
         <div class="search_box mt20">
 			<div class="clearfix">
 				<label for="" class="field_label">分类文章:</label>
-				<input type="text" class="field_input" name="firstCat">
+				<input type="text" class="field_input" name="firstCat" placeholder="用户名/手机号码/姓名">
 				<label for="" class="field_label">二级分类:</label>
                 <select name="secondCat" class="field_input" id="">
-                    <option value="">1111</option>
+                    <option value="">请选择</option>
                 </select>
 			</div>
 			<div class="clearfix">
 				<label for="" class="field_label">发布日期:</label>
-				<input type="text" name="publishDateStart" class="field_input field_date"> <span class="fl dash">-</span> <input name="publishDateEnd" type="text" class="field_input field_date">
+				<input type="text" name="publishDateStart" placeholder="起始时间" class="field_input field_date"> <span class="fl dash">-</span> <input placeholder="截止时间" name="publishDateEnd" type="text" class="field_input field_date">
                 <label for="" class="field_label">标题:</label>
-				<input type="text" class="field_input">
+				<input type="text" class="field_input" placeholder="请输入标题">
 				<button class="query_btn" onclick="query()">
 					查询
 				</button>

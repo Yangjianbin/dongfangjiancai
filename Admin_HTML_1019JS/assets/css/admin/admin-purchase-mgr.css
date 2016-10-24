@@ -49,6 +49,8 @@
     background-repeat: no-repeat;
 }
 
+
+/*
 .search_box{
     padding-bottom: 20px;
     padding-right: 20px;
@@ -108,18 +110,6 @@
     background-repeat: no-repeat;
     background-position: right bottom;
 }
+*/
 
 
-.tools{
-    padding-top: 10px;
-}
-.tools button{
-    height: 28px;
-    border:1px solid #ddd;
-    font-size: 14px;
-    outline: none;
-    background: white;
-    color: #666;
-    width: 100px;
-    margin-right: 10px;
-}

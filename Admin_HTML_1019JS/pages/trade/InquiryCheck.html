@@ -32,55 +32,55 @@
 
             <div class="tab-box standard">
                 <div class="divinfo">
-                    <label><em>*</em>工程名称</label>
+                    <label><span class="highlight">*</span>工程名称：</label>
                     <input type="text" placeholder="请输入工程名称..." id="inquirySheetTitle" required="required" class="text" value="">
                 </div>
                 <div class="divinfo">
-                    <label><em>*</em>企业名称</label>
+                    <label>企业名称：</label>
                     <input type="text" placeholder="企业名称..." id="inquirySheetTitle" required="required" class="text" value="">
                 </div>
                 <div class="divinfo">
-                    <label><em>*</em>联系人手机号</label>
+                    <label><span class="highlight">*</span>联系人手机号：</label>
                     <input type="text" placeholder="联系人手机号..." id="inquirySheetTitle" required="required" class="text" value="">
                 </div>
                 <div class="divinfo">
-                    <label><em>*</em>联系人姓名</label>
+                    <label><span class="highlight">*</span>联系人姓名：</label>
                     <input type="text" placeholder="联系人姓名..." id="inquirySheetTitle" required="required" class="text" value="">
                 </div>
                  <div class="divinfo query_price">
-                    <label><em>*</em>询价截止日期</label>
+                    <label><span class="highlight">*</span>询价截止日期：</label>
                     <button class="active">24小时</button>
                     <button class="">48小时</button>
                     <button class="">72小时</button>
                 </div>
                 <div class="divinfo">
                     <label for=""></label>
-                    <input type="text" class="text datetime" value="">
+                    <input type="text" class="text datetime" value="" placeholder="请选择">选择详细截止时间，过期后不在报价，截止时间不能超过两周。 
                 </div>
                 <div class="divinfo attach">
-                    <label>附件</label>
+                    <label>附件：</label>
                     <button class="">上传</button>
-                    <span>说明：你可以你可以你可以</span>
+                    <span>说明：1.您也可以通过上传附件，有我们的后台工作人员帮您完成询价单据的填写2.上传的文件允许：图片、word文档、excel文档</span>
                 </div>
                 <div class="divinfo">
-                    <label class="top"><em>*</em>询价产品</label>
+                    <label class="top"><span class="highlight">*</span>询价产品：</label>
                     <div class="table-box">
                         <table class="tb UploadInquirystb">
                             <thead>
                                 <tr>
                                     <th style="text-align: center;"></th>
-                                    <th><em>*</em>材料名称</th>
-                                    <th><em>*</em>材料品牌</th>
-                                    <th><em>*</em>规格型号</th>
-                                    <th><em>*</em>数量</th>
-                                    <th><em>*</em>单位</th>
+                                    <th>材料名称</th>
+                                    <th>材料品牌</th>
+                                    <th>规格型号</th>
+                                    <th>数量</th>
+                                    <th>单位</th>
                                 </tr>
                             </thead>
                             <tbody>
                                    <tr name="inquirySheet" data-index="1">
                                         <td style="text-align: center;"><span class="dell" onclick="deleteinquiry(this);">删除</span></td>
-                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入商品名称"></td>
-                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入商品名称"></td>
+                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入材料名称"></td>
+                                        <td><input type="text" class="inquiryName" data-id="0"  value="" placeholder="请输入品牌名称"></td>
                                         <td><input type="text" value="" class="inquirySize" id="nstock" placeholder="请输入规格"></td>
                                         <td><input type="text" value="" class="inquiryNum" placeholder="请输入数量"></td>
                                         <td class="unit"><input type="text" class="" value="" placeholder="件、吨"></td>
@@ -88,29 +88,29 @@
                             </tbody>
                         </table>
                         <div class="tools">
-                            <span class="add-inquiry">添加产品</span>
+                            <span class="add-inquiry">添加产品：</span>
                             <a class="highlight" href="javascript:filter(650,250,'UploadInquirys');">批量导入</a>
                         </div>
                     </div>
                 </div>
                 <div class="form">
                          <div class="divinfo query_price ">
-                            <label><em>*</em>收货方式</label>
+                            <label>收货方式：</label>
                             <button class="active">自取</button>
                             <button class="">供应商配送</button>
                         </div>
                         <div class="divinfo adr">
-                            <label><em>*</em>收货地址</label>
-                            <input type="text" placeholder="联系人姓名..."   class="text" value="">
+                            <label><span class="highlight">*</span>收货地址：</label>
+                            <input type="text" placeholder="请选择"   class="text" value="">
                         </div>
                         <div class="divinfo query_price deliver">
-                            <label><em>*</em>发票要求</label>
+                            <label>发票要求：</label>
                             <button class="active">普通发票（增值税）</button>
                             <button class="">专业发票（增值税）</button>
                         </div>
 
                         <div class="form-group divinfo cl">
-                            <label class="top"><em></em>询价备注</label>
+                            <label class="top"><em></em>询价备注：</label>
                             <div class="table-box">
                                     <textarea name="" style="width:100%" cols="60" rows="4"></textarea>
                             </div>

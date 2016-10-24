@@ -37,7 +37,7 @@
                     询价截止日期 ：X0000
                 </span>
             </div>
-            <ul class="inquiry_info">
+            <ul class="inquiry_info clearfix">
                 <li>工程名称：萧山</li>
                 <li>收货方式：</li>
                 <li>企业名称：</li>
@@ -65,10 +65,10 @@
                 提示：通过品牌筛选出，下面列表的商品信息！
                 <span>材料总价：000元</span>
             </div>
-            <table class="table table-bordered">
+            <table class="table table-bordered" id="table">
                 <tr>
                     <th>材料名称</th>
-                    <th>材料品种</th>
+                    <th>材料品牌</th>
                     <th>规格型号</th>
                     <th>数量</th>
                     <th>单位</th>
@@ -80,7 +80,7 @@
                     <td>xxx</td>
                     <td>xxx</td>
                     <td>xxx</td>
-                    <td><input type="text" >&nbsp;&nbsp;元</td>
+                    <td><input type="text" placeholder="输入单价" />&nbsp;&nbsp;元</td>
                 </tr>
             </table>
             <div class="field_list mt20">
@@ -89,14 +89,14 @@
                         选择供应商：
                     </label>
                     <div class="field_value">
-                        <input type="text" class="supply">
-                        <input type="text">
+                        <input type="text" class="supply" placeholder="请选择供应商">
+                        <input type="text" placeholder="或 输入报价供应商名称">
                     </div>
                 </div>
                 <div class="row entry">
                     <label for="" class="field_label">运费价格：</label>
                     <div class="field_value">
-                        <input type="text">元
+                        <input type="text" placeholder="根据采购商的需求，自取可不填写">元
                         <p>提示：请根据选择的供应商，来填写运费价格，若供应商品报价包括运费，请在备注里说明。</p>
                     </div>
                 </div>
@@ -111,7 +111,7 @@
                 <div class="entry row">
 
                     <div class="field_value submit">
-                        <button>提价</button>
+                        <button>提交</button>
                     </div>
                 </div>
             </div>

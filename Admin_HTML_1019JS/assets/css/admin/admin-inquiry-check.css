@@ -176,12 +176,14 @@
 }
 .contmain .w1190c .tb input[type='text'] {
     width: 95%;
-    font-size: 14px;
+    font-size: 12px;
     padding: 0 5px;
     height: 30px;
     line-height: 30px;
     border: 0;
     border: 1px solid #e5e5e5;
+    font-weight: normal;
+    
 }
 .contmain .w1190c .tb input[type='file'] {
     width: 64px;
@@ -440,7 +442,7 @@ input.inquiryBrand::-ms-clear {
     float: left;
 }
 .divinfo {
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     font-size: 14px;
     color: #919090;
 }
@@ -489,6 +491,7 @@ input.inquiryBrand::-ms-clear {
 }
 .standard .divinfo input.text {
     width: 320px;
+    margin-right: 10px;
 }
 .divinfo .item input.text {
     width: 380px;
@@ -579,6 +582,7 @@ width:97px;
         width: 150px;
 }
 .divinfo.query_price button.active {
+    border:1px solid #515663;
     background: url(../../img/admin/icon_center_xuanzhongkuang.png) no-repeat right bottom;
 }
 .divinfo.attach button {
@@ -808,6 +812,9 @@ span.accessory:hover {
     width: 150px;
     margin: 10px 0px;
     border-radius: 2px;
+}
+.contmain .agr .btdiv.standard .bt.save{
+    margin-right: 18px;
 }
 .contmain .agr .bt {
     height: 34px;

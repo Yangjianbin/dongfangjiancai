@@ -62,8 +62,34 @@ table td:nth-child(6) input{
     border:1px solid #666;
     text-indent: 10px;
 }
+.tool_bar{
+    padding: 10px 20px;
+    color: #888;
+}
+.tool_bar span{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tool_bar label{
+    color: #333;
+}
+#table{
+    
+}
+#table th{
+    font-size: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #f1f1f1;
+}
+#table td{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
 .inquiry_info{
     position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .inquiry_info li{
     width: 50%;
@@ -84,7 +110,7 @@ table td:nth-child(6) input{
 .inquiry_info li.link{
     position: absolute;
     right: 0px;
-    top:30px;
+    top:34px;
     width: 120px;
     height: 30px;
     color: white;
