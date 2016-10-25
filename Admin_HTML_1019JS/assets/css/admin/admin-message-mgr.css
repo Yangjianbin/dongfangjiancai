@@ -1,3 +1,49 @@
+/*beautiful_checkbox start*/
+.beautiful_checkbox{
+    display: none;
+}
+.beautiful_checkbox_wrap{
+    display: inline-block;
+    border:2px solid #ccc;
+    border-radius: 17px;
+    width: 100px;
+    height: 34px;
+    color: #888;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all .6s;
+}
+.beautiful_checkbox_wrap.on{
+    border-color: #4bd865;
+}
+.beautiful_checkbox_wrap.on .beautiful_checkbox_btn{
+    background-color: #4bd865;
+    left: 68px;
+}
+.beautiful_checkbox_wrap.on .beautiful_checkbox_text{
+    left: 8px;
+}
+.beautiful_checkbox_wrap .beautiful_checkbox_btn{
+    z-index: 1;
+    transition: all .6s;
+    height: 24px;
+    width: 24px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top:3px;
+}
+.beautiful_checkbox_wrap .beautiful_checkbox_text{
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 30px;
+    transition: all .6s;
+}
+/*beautiful_checkbox end*/
+
 .account_mgr_nav{
     padding-right: 10px;
     background-color:#fff;
@@ -45,12 +91,17 @@
     margin-left: 20px;
     background-color: #b39a5a;
 }
-.message_table {
+#message_table {
     margin-top: 20px;
 }
-.message_table th,.message_table td{
-    height: 40px;
+#message_table th{
+    background-color: #f1f1f1;
+    font-size: 14px;
+}
+#message_table th,#message_table td{
     text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .field_list{
@@ -141,19 +192,4 @@
     border:none;
     margin-bottom: 20px;
     margin-left: 20px;
-}
-
-
-.tools{
-    padding-top: 10px;
-}
-.tools button{
-    height: 28px;
-    border:1px solid #ddd;
-    font-size: 14px;
-    outline: none;
-    background: white;
-    color: #666;
-    width: 120px;
-    margin-right: 10px;
 }

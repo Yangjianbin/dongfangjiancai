@@ -32,7 +32,7 @@
     font-size: 14px;
 }
 .entry .field_label{
-    width: 124px;
+    width: 82px;
     text-align: right;
     line-height: 34px;
     padding-right: 5px;
@@ -47,11 +47,11 @@
     height: 32px;
     text-indent: 10px;
     color: #888;
-    width: 270px;
+    width: 340px;
 }
 .entry .field_value input.date{
     background-image: url(../../img/admin/icon_center_calendar.png);
-    background-position: 246px center;;
+    background-position: 308px center;;
     background-repeat: no-repeat;
 }
 .entry .field_value .textarea{
@@ -94,7 +94,7 @@
 }
 .right-box{
     width: 280px;
-    margin-right: 170px;
+    margin-right: 190px;
 }
 .entry .field_value .upload{
 

@@ -1,96 +1,22 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="renderer" content="webkit|ie-stand">
     <meta name="viewport" content="width=device-width">
-    <title>平台管理中心</title>
+    <title>询价管理</title>
     <link href="../../assets/css/admin/bootstrap.min.css" rel="stylesheet">
+    <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
-    <link href="../../assets/css/admin/custom.css" rel="stylesheet">
-	<link href="../../assets/css/admin/admin-index.css" rel="stylesheet">
-    <!-- <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet"> -->
+    <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
     <link href="../../assets/css/admin/admin-agreement-union-order.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
 </head>
-<body class="no-topbar">
-    <div class="navbar navbar-static-top navbar-custom">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="logo" href="index.html" title="平台管理中心">平台管理中心</a>
-            </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">首页</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="home/Home.html" id="1001" target="iframe">控制台</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">客户</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="./customer/Account.html" target="iframe">账户管理</a></li>
-                            <li><a href="./customer/Company.html" target="iframe">企业管理</a></li>
-                            <li><a href="./customer/CA.html" target="iframe">CA认证</a></li>
-                            <li><a href="./customer/BlackList.html" target="iframe">黑名单</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">商品</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="./product/ProductManagement.html" target="iframe">商品管理</a></li>
-                            <li><a href="./product/BrandManagement.html" target="iframe">品牌管理</a></li>
-                            <li><a href="./product/CategoryManagement.html" target="iframe">分类管理</a></li>
-                            <li><a href="./product/TypeManagement.html" target="iframe">类型管理</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown active">
-                        <a class="dropdown-toggle" data-toggle="dropdown">交易</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="./trade/InquiryManagement.html" target="iframe">询价管理</a></li>
-                            <li><a href="./trade/PurchaseManagement.html" target="iframe">采购管理</a></li>
-                            <li><a href="./trade/OrderManagement.html" target="iframe">订单管理</a></li>
-                            <li><a href="./trade/PriceManagement.html" target="iframe">价格库管理</a></li>
-                            <li><a href="./trade/AgreementManagement.html" target="iframe">协议管理</a></li>
-                            <li><a href="./trade/PayManagement.html" target="iframe">支付管理</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">系统</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="./system/SiteManagement.html" target="iframe">站点设置</a></li>
-                            <li><a href="./system/AdminMgr.html" target="iframe">管理员</a></li>
-                            <li><a href="./system/LimitManagement.html" target="iframe">权限组</a></li>
-                            <li><a href="./system/LogManagement.html" target="iframe">日志管理</a></li>
-                            <li><a href="./system/MessageManagement.html" target="iframe">消息管理</a></li>
-                            <li><a href="./system/AgreementTemplate.html" target="iframe">协议模板</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown">网站</a>
-                        <ul class="dropdown-menu id_menu">
-                            <li class="current"><a href="./website/ArticleManagement.html" target="iframe">文章管理</a></li>
-                            <li><a href="./website/ArticleCategory.html" target="iframe">文章分类</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <ul class="menu">
-                    <li>小西瓜 &nbsp;&nbsp;<a href="#">退出&nbsp;</a></li>
-                    <li><a href="javascript:;" id="update_pwd">修改密码</a></li>
-                    <li><a href="#">消息（0）</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-
+<body>
     <div class="container">
-		<div style="font-size:12px;padding:10px 0;">
-			平台管理中心 > 订单管理
-		</div>
         <div class="box">
             <div class="order_title">
                 订单编号：2343434 &nbsp;&nbsp;&nbsp;&nbsp;下单日期：2016-09-24
@@ -98,8 +24,8 @@
             <div class="progressbar">
                 <ul class="bar">
                     <li class="done">已下单</li>
-                    <li class="done current">协议生成</li>
-                    <li>货款到账</li>
+                    <li class="done current">签约生效</li>
+                    <li>买家待付款</li>
                     <li>货已签收</li>
                     <li>交易完成</li>
                 </ul>
@@ -113,10 +39,9 @@
                 <p>
                     厂家配送
                 </p>
-                <p class="last">
+                <p>
                     物流费用：<span class="highlight">2343</span>元
                 </p>
-
                 <p>
                     发货时间：2222-22-22 22:22:22
                 </p>
@@ -126,7 +51,7 @@
                 <p>
                     货物单号：xxxx
                 </p>
-                <p p class="last">
+                <p>
                     附件：xxxx
                 </p>
                 <p>
@@ -279,7 +204,7 @@
         </div>
         <div class="box2 mt10 clearfix">
             <div class="total">
-                订单合计金额：<span class="highlight bold">24324</span> 元
+                订单合计金额：<span class="highlight">24324</span> 元
             </div>
         </div>
         <div class="aftersale box2 mt10 clearfix">
@@ -335,13 +260,21 @@
 
     </div>
     <script src="../../assets/js/jquery-1.12.0.min.js"></script>
-	<script src="../../assets/js/admin/jquery.artDialog.js"></script>
-	<script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
     <script src="../../assets/js/admin/bootstrap.min.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
+    <script src="../../assets/js/admin/jquery.artDialog.js"></script>
+    <script src="../../assets/js/admin/artDialog.iframeTools.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.js"></script>
+    <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="../../assets/js/admin/jquery.datagrid.js"></script>
+    <script src="../../assets/js/admin/jquery.linkage.nocreate.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
-    <script src="../../assets/js/admin/custom.js"></script>
-	<script src="../../assets/js/admin/admin-index.js"></script>
+    <script src="../../assets/js/admin/inner-custom.js"></script>
+    <script src="../../assets/js/admin/inquiry-management.js"></script>
 
+    <script type="text/javascript">
+
+
+    </script>
 </body>
 </html>

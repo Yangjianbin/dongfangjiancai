@@ -1,4 +1,7 @@
 ul, li { list-style: none; padding:0; margin:0; }
+.highlight{
+    color: #af934d;
+}
 .mt10{margin-top: 10px}
 .bold{font-weight: bold;}
 .orderbreadcrumb{
@@ -15,12 +18,12 @@ ul, li { list-style: none; padding:0; margin:0; }
 .order_title{height: 35px;font-size: 16px;font-weight: normal;border-bottom: 1px solid #e3e3e3;}
 
 .progressbar{ height: 200px; padding-left: 20px; padding-top: 60px;}
-.progressbar .bar{width:100%;float: left;}
+.progressbar .bar{float: left;margin-left: 105px;}
 .progressbar .bar li{
     float: left;
     font-size: 16px;
     background: url(../../img/admin/icon_center_step03.png) center top no-repeat;
-    width: 180px;
+    width: 190px;
     padding-top: 50px;
     height: 80px;
     text-align: center;
@@ -32,7 +35,7 @@ ul, li { list-style: none; padding:0; margin:0; }
     color: #af934d;
 }
 .progressbar .bar li:before,
-.progressbar .bar li.done.current:after{content:""; height: 8px; width:132px; top: 18px; left: 114px; background: #f1f1f1; position: absolute;}
+.progressbar .bar li.done.current:after{content:""; height: 8px; width:145px; top: 18px; left: 118px; background: #f1f1f1; position: absolute;}
 .progressbar .bar li:last-child:before{background: none;}
 .progressbar .bar li.done:before{background: #af934d;}
 .progressbar .bar li.done.current:before{background: #f1f1f1;}
@@ -42,11 +45,13 @@ ul, li { list-style: none; padding:0; margin:0; }
     float: left;
     border-right: 1px solid #ddd;
     height: 315px;
-    width: 200px;
+    width: 240px;
 }
 .deliverway p{
-    height: 28px;
-    line-height: 28px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    margin-bottom: 5px;
 }
 .deliverway p.title{
     padding-bottom: 20px;
@@ -55,9 +60,12 @@ ul, li { list-style: none; padding:0; margin:0; }
     line-height: 1.4;
     height: auto;
 }
+.deliverway p.last{
+    margin-bottom: 20px;
+}
 .deliverlist{
     float: left;
-    padding-left: 40px;
+    padding-left: 80px;
 }
 .delivertitle{
     font-size: 14px;
@@ -70,7 +78,7 @@ ul, li { list-style: none; padding:0; margin:0; }
 .deliverlist .tablewrap{
     height: 266px;
     overflow-y: auto;
-        width: 720px;
+    width: 780px;
 }
 .deliverlist .table{
 
@@ -78,21 +86,26 @@ ul, li { list-style: none; padding:0; margin:0; }
     height: 260px;
     overflow: scroll;
 }
+.deliverlist .table th{
+    background-color: #f1f1f1;
+}
 .deliverlist .table td,.deliverlist .table th{
     border:1px solid #ddd;
     height: 44px;
+    line-height: 25px;
     font-size: 14px;
     text-align: center;
 }
 .deliverlist .desc{
     line-height: 30px;
     font-size: 14px;
+    color: #888;
 }
 .htinfo {
     border-right: 1px solid #ddd;
     height: 216px;
     float: left;
-    width: 235px;
+    width: 240px;
 }
 .htinfo .title{
     font-size: 14px;
@@ -134,6 +147,7 @@ ul, li { list-style: none; padding:0; margin:0; }
 }
 .shinfo .shentry{
     margin-bottom: 20px;
+    font-size: 12px;
 }
 .shentry .dt{
     float: left;
@@ -157,6 +171,7 @@ ul, li { list-style: none; padding:0; margin:0; }
 }
 .invoiceinfo .invoiceentry{
     margin-bottom: 20px;
+    font-size: 12px;
 }
 .invoiceentry .dt{
     float: left;
@@ -179,6 +194,7 @@ ul, li { list-style: none; padding:0; margin:0; }
 }
 .payinfo .payentry{
     margin-bottom: 20px;
+    font-size: 12px;
 }
 .payentry .dt{
     float: left;
@@ -193,6 +209,7 @@ ul, li { list-style: none; padding:0; margin:0; }
     margin-bottom: -10px;
     font-size: 16px;
     float: right;
+    margin-right: 60px;
 }
 .aftersale{
 
@@ -206,6 +223,7 @@ ul, li { list-style: none; padding:0; margin:0; }
 .aftersale .entry{
     width: 700px;
     clear: both;
+    font-size: 12px;
 }
 .aftersale .dt{
     width: 65px;

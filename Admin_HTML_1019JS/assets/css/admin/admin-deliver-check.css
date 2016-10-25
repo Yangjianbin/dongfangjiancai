@@ -30,7 +30,7 @@
     margin-left: 0px;
 }
 .entry .field_label{
-    width: 124px;
+    width: 110px;
     text-align: right;
     line-height: 34px;
     padding-right: 5px;
@@ -44,15 +44,15 @@
     height: 32px;
     text-indent: 10px;
     color: #888;
-    width: 270px;
+    width: 320px;
 }
 .entry .field_value input.date{
     background-image: url(../../img/admin/icon_center_calendar.png);
-    background-position: 246px center;;
+    background-position: 296px center;;
     background-repeat: no-repeat;
 }
 .entry .field_value .textarea{
-    width: 272px;
+    width: 320px;
     height: 100px;
     padding: 10px;
     outline: none;
@@ -73,7 +73,7 @@
 .action {
     clear: both;
     text-align: center;
-    margin-top: 30px;
+    padding-top: 50px;
 }
 .action button{
     border-radius: 2px;
@@ -154,8 +154,8 @@
 
 
 .entry .field_value.deliver_way button{
-    width: 130px;
-    height: 27px;
+    width: 154px;
+    height: 32px;
     border:1px solid #ddd;
     background-color: white;
     outline: none;

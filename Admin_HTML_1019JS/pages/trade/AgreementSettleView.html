@@ -11,7 +11,7 @@
     <link href="../../assets/css/admin/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="../../assets/css/admin/artdilog.css" rel="stylesheet">
     <link href="../../assets/css/admin/inner-custom.css" rel="stylesheet">
-    <link href="../../assets/css/admin/admin-message-mgr.css" rel="stylesheet">
+    <link href="../../assets/css/admin/admin-agreement-view.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="../../assets/js/admin/respond.min.js"></script>
     <![endif]-->
@@ -19,31 +19,15 @@
 
 <body>
     <div class="container">
-        <div class="account_mgr_nav"> <a href="./MessageManagement.html" class="active">
-			    消息设置
-			</a> <a href="./MailManagement.html">
-			    邮件通知配置
-			</a><a href="./PhoneManagement.html">
-			    手机短信配置
-			</a>  </div>
+        <div class="nav_title">
+            查看
+            <a class="back" href="./AgreementSettleManagement.html">返回入驻协议</a>
+        </div>
+        <div style="padding-left:20px;font-size:14px;padding-top:20px;">
+            <span class="highlight">合同已添加附加条款，请注意确认！</span>
+        </div>
         <div class="module-box mt20">
-            <div class="content_title">
-                提示：第一次使用消息提示请先进行相关配置。短信消息需要先<span class="highlight">购买短信</span>
-            </div>
-            <table class="table table-bordered" id="message_table">
-                <tr>
-                    <th>消息类型</th>
-                    <th>邮件通知</th>
-                    <th>手机短信</th>
-                </tr>
-                <tr>
-                    <td>订单创建时</td>
-                    <td>
-                        <input type="checkbox" class="beautiful_checkbox" checked>
-                    </td>
-                    <td><input type="checkbox" class="beautiful_checkbox"></td>
-                </tr>
-            </table>
+            <img style="width:700px;height:600px;display:block;margin:auto;" src="" alt="">
         </div>
 
     </div>
@@ -55,7 +39,7 @@
     <script src="../../assets/js/admin/bootstrap-datetimepicker.zh-CN.js"></script>
     <script src="../../assets/js/jquery.cookie.js"></script>
     <script src="../../assets/js/admin/CommonJS.js"></script>
-    <script src="../../assets/js/admin/admin-message-mgr.js"></script>
+    <script src="../../assets/js/admin/admin-agreement-view.js"></script>
 
 </body>
 

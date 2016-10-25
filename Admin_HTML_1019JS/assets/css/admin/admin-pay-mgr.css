@@ -1,3 +1,50 @@
+/*beautiful_checkbox start*/
+.beautiful_checkbox{
+    display: none;
+}
+.beautiful_checkbox_wrap{
+    display: inline-block;
+    border:2px solid #ccc;
+    border-radius: 17px;
+    width: 100px;
+    height: 34px;
+    color: #888;
+    font-size: 14px;
+    position: relative;
+    cursor: pointer;
+    transition: all .6s;
+}
+.beautiful_checkbox_wrap.on{
+    border-color: #4bd865;
+}
+.beautiful_checkbox_wrap.on .beautiful_checkbox_btn{
+    background-color: #4bd865;
+    left: 68px;
+}
+.beautiful_checkbox_wrap.on .beautiful_checkbox_text{
+    left: 8px;
+}
+.beautiful_checkbox_wrap .beautiful_checkbox_btn{
+    z-index: 1;
+    transition: all .6s;
+    height: 24px;
+    width: 24px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    left: 3px;
+    top:3px;
+}
+.beautiful_checkbox_wrap .beautiful_checkbox_text{
+    position: absolute;
+    right: 10px;
+    top: 4px;
+    width: 30px;
+    transition: all .6s;
+}
+/*beautiful_checkbox end*/
+
+
 .title{
     padding-top: 15px;
     padding-bottom: 15px;
@@ -48,7 +95,7 @@
     padding-bottom: 18px;
 }
 .message_table th,.message_table td{
- 
+
     text-align: center;
 }
 
