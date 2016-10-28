@@ -66,4 +66,10 @@ button.aui_state_highlight:hover,button.aui_state_highlight:active {color: #fff;
 .aui_title{
     font-weight: normal;
     border-bottom: 1px solid #ddd;
+    color: #333;
+}
+.aui_close{color:#bbb;}
+.aui_close:hover { color: #bbb;}
+.aui_content .field_label {
+    color: #333 !important;
 }

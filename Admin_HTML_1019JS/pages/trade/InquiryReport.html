@@ -129,6 +129,17 @@
     <script src="../../assets/js/admin/admin-inquiry-report.js"></script>
 
 
+    <script>
+        $(function(){
+            $('.select_brand input').change(function(){
+                var b = $(this).prop('checked');
+                if(b){
+                    $(this).closest('label').siblings('label').find('input').prop('checked',false);
+                }
+
+            })
+        })
+    </script>
 
 </body>
 

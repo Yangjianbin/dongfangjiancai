@@ -7,7 +7,7 @@ $(function() {
             lock:true,
             ok:function(){},
             cancel:function(){},
-            content:'<div><div style="text-align:center;font-size:16px;">1.您确定要删除该协议吗？</div></div>'
+            content:'<div><div style="text-align:center;font-size:16px;">您确定要删除该协议吗？</div></div>'
         })
     })
 })

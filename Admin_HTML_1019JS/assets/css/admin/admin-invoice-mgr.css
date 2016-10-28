@@ -48,6 +48,7 @@
     height: 40px;
     border:1px solid #eee;
     background-color: #fff;
+    margin-right: 8px;
 }
 .invoicebtn button.active{
     border: 1px solid #515663;
@@ -130,14 +131,14 @@
     float: left;
 }
  .prop .dt{
-    width: 60px;
+    width: 130px;
     text-align: right;
 }
 
 #add_invoice_content{
     width: 700px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
     text-align: center;
     font-size: 14px;
 }
@@ -148,9 +149,10 @@
     line-height: 34px;
 }
 #add_invoice_content .field_label{
-    width: 100px;
+    width: 170px;
     padding-right: 20px;
     float:left;
+    text-align: right;
 }
 #add_invoice_content input{
     height: 34px;

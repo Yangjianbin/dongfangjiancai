@@ -13,10 +13,14 @@
     background-color: #404652;
     padding: 10px 20px;
     text-align: center;
+
 }
-.admin_panel:hover .title{
+.admin_panel .title.company_title{
     background-color: #af924c;
 }
+/*.admin_panel:hover .title{
+    background-color: #af924c;
+}*/
 .admin_panel .title span{
     font-size: 14px;
     padding-left: 15px;

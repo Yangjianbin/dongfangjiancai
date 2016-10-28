@@ -574,10 +574,12 @@ label.label-custom input { margin-right: 5px }
 
 .module-box .steps{padding:20px 0px 10px; background:url(../../img/admin/icon_center_arrow02.png) 58px 42px no-repeat;}
 .module-box .steps h3{display: inline-block; background: #af934d; color: #fff; font-size: 12px; font-weight: bold; width: 70px; text-align:center;  height: 70px; line-height: 70px; padding: 0px; border-radius: 50%;}
-.module-box .steps ul{display: inline-table; margin-left: 30px; width: 855px; border-bottom: 1px #999 solid; padding:0px 0px 5px 30px; position: relative;}
+.module-box .steps ul{display: inline-table; margin-left: 40px; width: 830px; border-bottom: 1px #999 solid; padding:0px 0px 5px 30px; position: relative;}
 .module-box .steps ul:before{content:""; position: absolute; left: 5px; bottom:-6px; height: 11px; border-left: 1px #999 solid; display: block;}
 .module-box .steps ul:after{content:""; position: absolute; right: 2px; bottom:-2px; height: 9px; display: block; border-right: 1px #999 solid; transform:rotate(-45deg); }
-.module-box .steps ul li{    float: left;width: 104px;}
+.module-box .steps ul li{    float: left;width: 180px;text-align: center;}
+.module-box .steps ul li a{color: #333;}
+.module-box .steps ul li a:hover{color: #af924c;}
 .module-box .steps ul li:first-child:before{ content: ""; width:7px; height: 7px; position: absolute; left: 6px; bottom:-4px; display: block; border-radius: 50%; background: #999;}
 
 
